@@ -1,0 +1,267 @@
+{
+  "name": "学习通题库示例",
+  "description": "包含20道精选多选题的示例题库",
+  "createTime": "2025-12-25",
+  "questions": [
+    {
+      "id": "405248131",
+      "question": "社会主义政治发展的必然要求是坚持( )的有机统一。",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "党的领导"},
+        {"letter": "B", "content": "人民当家作主"},
+        {"letter": "C", "content": "依法治国"},
+        {"letter": "D", "content": "人民民主专政"}
+      ],
+      "right_answer": "ABC"
+    },
+    {
+      "id": "405248132",
+      "question": "全面深化改革的总目标是( )。",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "完善和发展中国特色社会主义制度"},
+        {"letter": "B", "content": "推进国家治理体系和治理能力现代化"},
+        {"letter": "C", "content": "全面建成小康社会"},
+        {"letter": "D", "content": "完善社会保障制度"}
+      ],
+      "right_answer": "AB"
+    },
+    {
+      "id": "405248133",
+      "question": "五四运动以来我国发生的三大历史性事件?( )",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "建立中国共产党"},
+        {"letter": "B", "content": "成立中华人民共和国"},
+        {"letter": "C", "content": "推进改革开放和中国特色社会主义事业"},
+        {"letter": "D", "content": "全面深化改革"}
+      ],
+      "right_answer": "ABC"
+    },
+    {
+      "id": "405248134",
+      "question": "我们未来要重点解决的民生问题包括( )等方面。",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "教育"},
+        {"letter": "B", "content": "医疗"},
+        {"letter": "C", "content": "养老"},
+        {"letter": "D", "content": "住房"}
+      ],
+      "right_answer": "ABCD"
+    },
+    {
+      "id": "405248135",
+      "question": "要发挥分配的功能和作用。要处理好效率和公平关系，构建( )协调配套的基础性制度安排。",
+      "type": "多选题",
+      "score": "0.5",
+      "options": [
+        {"letter": "A", "content": "初次分配"},
+        {"letter": "B", "content": "再分配"},
+        {"letter": "C", "content": "三次分配"},
+        {"letter": "D", "content": "四次分配"}
+      ],
+      "right_answer": "ABC"
+    },
+    {
+      "id": "405248136",
+      "question": "落实立德树人根本任务，必须着力解决好( )的问题，这是教育的根本问题。",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "培养什么人"},
+        {"letter": "B", "content": "怎样培养人"},
+        {"letter": "C", "content": "为谁培养人"},
+        {"letter": "D", "content": "建设教育强国"}
+      ],
+      "right_answer": "ABC"
+    },
+    {
+      "id": "405248137",
+      "question": "100多年前，中国共产党的先驱们创建了中国共产党,形成( )的伟大建党精神。",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "坚持真理、坚守理想"},
+        {"letter": "B", "content": "践行初心、担当使命"},
+        {"letter": "C", "content": "不怕牺牲、英勇斗争"},
+        {"letter": "D", "content": "对党忠诚、不负人民"}
+      ],
+      "right_answer": "ABCD"
+    },
+    {
+      "id": "405248138",
+      "question": "在国家治理体系的大棋局中，党中央是坐镇中军帐的帅，车马炮各展其长，一盘棋大局分明。党的领导是全面的，体现在( )。",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "领导对象要全面覆盖"},
+        {"letter": "B", "content": "领导内容要全面"},
+        {"letter": "C", "content": "领导过程要全面"},
+        {"letter": "D", "content": "领导方法要全面"}
+      ],
+      "right_answer": "ABCD"
+    },
+    {
+      "id": "405248139",
+      "question": "中国特色社会主义进入新时代，改革也进入( )。",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "攻坚期"},
+        {"letter": "B", "content": "深水区"},
+        {"letter": "C", "content": "关键时刻"},
+        {"letter": "D", "content": "关键环节"}
+      ],
+      "right_answer": "AB"
+    },
+    {
+      "id": "405248140",
+      "question": "必须坚持教育( )。",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "为人民服务"},
+        {"letter": "B", "content": "为中国共产党治国理政服务"},
+        {"letter": "C", "content": "为巩固和发展中国特色社会主义制度服务"},
+        {"letter": "D", "content": "为改革开放和社会主义现代化建设服务"}
+      ],
+      "right_answer": "ABCD"
+    },
+    {
+      "id": "405248141",
+      "question": "发展社会主义民主政治就是要 ( )",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "体现人民意志"},
+        {"letter": "B", "content": "保障人民权益"},
+        {"letter": "C", "content": "激发人民创造活力"},
+        {"letter": "D", "content": "用制度体系保证人民当家作主"}
+      ],
+      "right_answer": "ABCD"
+    },
+    {
+      "id": "405248142",
+      "question": "中国实行的全过程人民民主，是过程民主和成果民主、程序民主和实质民主、直接民主和间接民主、人民民主和国家意志相统一，是全链条、全方位、全覆盖的民主。中国的民主实践表明( )",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "全过程人民民主是我国社会主义民主政治的鲜明特色"},
+        {"letter": "B", "content": "充分彰显我国民主是最真实、最广泛、最管用的民主"},
+        {"letter": "C", "content": "中国民主建设智慧和方案为其他各国民主提供了样板"},
+        {"letter": "D", "content": "全过程人民民主提升了人民当家作主的社会法律地位"}
+      ],
+      "right_answer": "ABC"
+    },
+    {
+      "id": "405248143",
+      "question": "人民民主是一种全过程的民主，所有的重大立法决策都是依照程序、经过民主酝酿，通过科学决策、民主决策产生的。这个重要论断，道出了我国人民当家作主的本质特征。这说明:( )",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "公民可以直接行使管理国家事务的权利"},
+        {"letter": "B", "content": "我国社会主义民主是最真实的民主"},
+        {"letter": "C", "content": "我国是人民民主专政的社会主义国家"},
+        {"letter": "D", "content": "我国的人民民主具有阶级性和全民性"}
+      ],
+      "right_answer": "BC"
+    },
+    {
+      "id": "405248144",
+      "question": "我国全过程人民民主不仅有完整的制度程序，而且有完整的参与实践。我国推进全过程人民民主建设( )",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "是基于过程民主比成果民主更为重要"},
+        {"letter": "B", "content": "是由社会主义民主的本质决定的"},
+        {"letter": "C", "content": "有利于推进实质民主建设"},
+        {"letter": "D", "content": "有利于实现人民意志和国家意志相统一"}
+      ],
+      "right_answer": "BD"
+    },
+    {
+      "id": "405248145",
+      "question": "全过程人民民主是( )",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "全链条"},
+        {"letter": "B", "content": "全方位"},
+        {"letter": "C", "content": "全覆盖"},
+        {"letter": "D", "content": "全方面"}
+      ],
+      "right_answer": "ABC"
+    },
+    {
+      "id": "405248146",
+      "question": "全过程民主包括民主选举、民主决策、民主管理、民主监督等过程。这一规定( )",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "体现了我国人民民主是最真实的民主"},
+        {"letter": "B", "content": "说明实现人民民主是长期的过程"},
+        {"letter": "C", "content": "意在保障协商结果真正体现公民意志"},
+        {"letter": "D", "content": "是基于人民民主是社会主义的生命"}
+      ],
+      "right_answer": "AD"
+    },
+    {
+      "id": "405248147",
+      "question": "中国特色社会主义政治发展道路要坚持( )相统一",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "党的领导"},
+        {"letter": "B", "content": "人民当家做主"},
+        {"letter": "C", "content": "依法治国"},
+        {"letter": "D", "content": "全过程民主"}
+      ],
+      "right_answer": "ABC"
+    },
+    {
+      "id": "405248148",
+      "question": "我国全过程人民民主实现了( )相统一",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "过程民主和成果民主"},
+        {"letter": "B", "content": "程序民主和实质民主"},
+        {"letter": "C", "content": "直接民主和间接民主"},
+        {"letter": "D", "content": "人民民主和国家意志"}
+      ],
+      "right_answer": "ABCD"
+    },
+    {
+      "id": "405248149",
+      "question": "铸牢中华民族共同体意识，就是要引导各民族树立( )的共同体理念。",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "休戚与共"},
+        {"letter": "B", "content": "荣辱与共"},
+        {"letter": "C", "content": "生死与共"},
+        {"letter": "D", "content": "命运与共"}
+      ],
+      "right_answer": "ABCD"
+    },
+    {
+      "id": "405248150",
+      "question": "加强和促进海内外中华儿女大团结，要高举( )旗帜",
+      "type": "多选题",
+      "score": "0.4",
+      "options": [
+        {"letter": "A", "content": "弘扬红色精神"},
+        {"letter": "B", "content": "爱国主义"},
+        {"letter": "C", "content": "社会主义"},
+        {"letter": "D", "content": "弘扬教育家精神"}
+      ],
+      "right_answer": "BC"
+    }
+  ]
+}

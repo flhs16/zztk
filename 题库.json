@@ -1,0 +1,6008 @@
+[
+  {
+    "id": "405248131",
+    "question": "社会主义政治发展的必然要求是坚持( )的有机统一。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "党的领导"
+      },
+      {
+        "letter": "B",
+        "content": "人民当家作主"
+      },
+      {
+        "letter": "C",
+        "content": "依法治国"
+      },
+      {
+        "letter": "D",
+        "content": "人民民主专政"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248132",
+    "question": "全面深化改革的总目标是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "完善和发展中国特色社会主义制度"
+      },
+      {
+        "letter": "B",
+        "content": "推进国家治理体系和治理能力现代化"
+      },
+      {
+        "letter": "C",
+        "content": "全面建成小康社会"
+      },
+      {
+        "letter": "D",
+        "content": "完善社会保障制度"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248133",
+    "question": "五四运动以来我国发生的三大历史性事件?( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "建立中国共产党"
+      },
+      {
+        "letter": "B",
+        "content": "成立中华人民共和国"
+      },
+      {
+        "letter": "C",
+        "content": "推进改革开放和中国特色社会主义事业"
+      },
+      {
+        "letter": "D",
+        "content": "全面深化改革"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248134",
+    "question": "我们未来要重点解决的民生问题包括( )等方面。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "教育"
+      },
+      {
+        "letter": "B",
+        "content": "医疗"
+      },
+      {
+        "letter": "C",
+        "content": "养老"
+      },
+      {
+        "letter": "D",
+        "content": "住房"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248135",
+    "question": "要发挥分配的功能和作用。要处理好效率和公平关系，构建( )协调配套的基础性制度安排。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "初次分配"
+      },
+      {
+        "letter": "B",
+        "content": "再分配"
+      },
+      {
+        "letter": "C",
+        "content": "三次分配"
+      },
+      {
+        "letter": "D",
+        "content": "四次分配"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248136",
+    "question": "落实立德树人根本任务，必须着力解决好( )的问题，这是教育的根本问题。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "培养什么人"
+      },
+      {
+        "letter": "B",
+        "content": "怎样培养人"
+      },
+      {
+        "letter": "C",
+        "content": "为谁培养人"
+      },
+      {
+        "letter": "D",
+        "content": "建设教育强国"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248137",
+    "question": "100多年前，中国共产党的先驱们创建了中国共产党,形成了( )的伟大建党精神。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持真理、坚守理想"
+      },
+      {
+        "letter": "B",
+        "content": "践行初心、担当使命"
+      },
+      {
+        "letter": "C",
+        "content": "不怕牺牲、英勇斗争"
+      },
+      {
+        "letter": "D",
+        "content": "对党忠诚、不负人民"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248138",
+    "question": "在国家治理体系的大棋局中，党中央是坐镇中军帐的“帅”，车马炮各展其长，一盘棋大局分明。党的领导是全面的，体现在( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "领导对象要全面覆盖"
+      },
+      {
+        "letter": "B",
+        "content": "领导内容要全面"
+      },
+      {
+        "letter": "C",
+        "content": "领导过程要全面"
+      },
+      {
+        "letter": "D",
+        "content": "领导方法要全面"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248139",
+    "question": "中国特色社会主义进入新时代，改革也进入( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "攻坚期"
+      },
+      {
+        "letter": "B",
+        "content": "深水区"
+      },
+      {
+        "letter": "C",
+        "content": "关键时刻"
+      },
+      {
+        "letter": "D",
+        "content": "关键环节"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248140",
+    "question": "必须坚持教育( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "为人民服务"
+      },
+      {
+        "letter": "B",
+        "content": "为中国共产党治国理政服务"
+      },
+      {
+        "letter": "C",
+        "content": "为巩固和发展中国特色社会主义制度服务"
+      },
+      {
+        "letter": "D",
+        "content": "为改革开放和社会主义现代化建设服务"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248141",
+    "question": "发展社会主义民主政治就是要 ( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "体现人民意志"
+      },
+      {
+        "letter": "B",
+        "content": "保障人民权益"
+      },
+      {
+        "letter": "C",
+        "content": "激发人民创造活力"
+      },
+      {
+        "letter": "D",
+        "content": "用制度体系保证人民当家作主"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248142",
+    "question": "中国实行的全过程人民民主，是过程民主和成果民主、程序民主和实质民主、直接民主和间接民主、人民民主和国家意志相统一，是全链条、全方位、全覆盖的民主，既有鲜明的中国特色，也体现全人类共同价值，为丰富和发展人类政治文明贡献了中国智慧。中国的民主实践表明( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "全过程人民民主是我国社会主义民主政治的鲜明特色"
+      },
+      {
+        "letter": "B",
+        "content": "充分彰显我国民主是最真实、最广泛、最管用的民主"
+      },
+      {
+        "letter": "C",
+        "content": "中国民主建设智慧和方案为其他各国民主提供了样板"
+      },
+      {
+        "letter": "D",
+        "content": "全过程人民民主提升了人民当家作主的社会法律地位"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248143",
+    "question": "“人民民主是一种全过程的民主，所有的重大立法决策都是依照程序、经过民主酝酿，通过科学决策、民主决策产生的”这个重要论断，道出了我国人民当家作主的本质特征，彰显了社会主义民主的显著优势。这说明:( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "公民可以直接行使管理国家事务的权利"
+      },
+      {
+        "letter": "B",
+        "content": "我国社会主义民主是最真实的民主"
+      },
+      {
+        "letter": "C",
+        "content": "我国是人民民主专政的社会主义国家"
+      },
+      {
+        "letter": "D",
+        "content": "我国的人民民主具有阶级性和全民性"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BC"
+  },
+  {
+    "id": "405248144",
+    "question": "我国全过程人民民主不仅有完整的制度程序，而且有完整的参与实践。我国推进全过程人民民主建设( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "是基于过程民主比成果民主更为重要"
+      },
+      {
+        "letter": "B",
+        "content": "是由社会主义民主的本质决定的"
+      },
+      {
+        "letter": "C",
+        "content": "有利于与推进实质民主建设向程序民主建设转移"
+      },
+      {
+        "letter": "D",
+        "content": "有利于实现人民意志和国家意志相统一"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BD"
+  },
+  {
+    "id": "405248145",
+    "question": "全过程人民民主是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "全链条"
+      },
+      {
+        "letter": "B",
+        "content": "全方位"
+      },
+      {
+        "letter": "C",
+        "content": "全覆盖"
+      },
+      {
+        "letter": "D",
+        "content": "全方面"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248146",
+    "question": "全过程民主包括民主选举、民主决策、民主管理、民主监督等过程。2021年，全国人大组织修正草案增加规定:全国人大及其常务会坚持全过程民主。这一规定( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "体现了我国人民民主是最真实的民主"
+      },
+      {
+        "letter": "B",
+        "content": "说明实现人民民主是长期的过程"
+      },
+      {
+        "letter": "C",
+        "content": "意在保障协商结果真正体现公民意志"
+      },
+      {
+        "letter": "D",
+        "content": "是基于人民民主是社会主义的生命"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AD"
+  },
+  {
+    "id": "405248147",
+    "question": "中国特色社会主义政治发展道路要坚持( )相统一",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "党的领导"
+      },
+      {
+        "letter": "B",
+        "content": "人民当家做主"
+      },
+      {
+        "letter": "C",
+        "content": "依法治国"
+      },
+      {
+        "letter": "D",
+        "content": "全过程民主"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248148",
+    "question": "我国全过程人民民主实现了( )相统一",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "过程民主和成果民主"
+      },
+      {
+        "letter": "B",
+        "content": "程序民主和实质民主"
+      },
+      {
+        "letter": "C",
+        "content": "直接民主和间接民主"
+      },
+      {
+        "letter": "D",
+        "content": "人民民主和国家意志"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248149",
+    "question": "铸牢中华民族共同体意识，就是要引导各民族树立( )的共同体理念。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "休戚与共"
+      },
+      {
+        "letter": "B",
+        "content": "荣辱与共"
+      },
+      {
+        "letter": "C",
+        "content": "生死与共"
+      },
+      {
+        "letter": "D",
+        "content": "命运与共"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248150",
+    "question": "加强和促进海内外中华儿女大团结，要高举( )旗帜",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "弘扬红色精神"
+      },
+      {
+        "letter": "B",
+        "content": "爱国主义"
+      },
+      {
+        "letter": "C",
+        "content": "社会主义"
+      },
+      {
+        "letter": "D",
+        "content": "弘扬教育家精神"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BC"
+  },
+  {
+    "id": "405248151",
+    "question": "党对统一战线工作的领导主要是政治领导，即( )的领导",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "政治原则"
+      },
+      {
+        "letter": "B",
+        "content": "政治方向"
+      },
+      {
+        "letter": "C",
+        "content": "重大方针政策"
+      },
+      {
+        "letter": "D",
+        "content": "政治底线"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248152",
+    "question": "人民代表大会制度是我国的根本政治制度，是( )的好制度，是我们党领导人民在人类政治制度史上的伟大创造。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "符合我国国情和实际"
+      },
+      {
+        "letter": "B",
+        "content": "体现社会主义国家性质"
+      },
+      {
+        "letter": "C",
+        "content": "保证人民当家作主"
+      },
+      {
+        "letter": "D",
+        "content": "保障实现中华民族伟大复兴"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248153",
+    "question": "全过程人民民主是社会主义民主政治的本质属性，是( )的民主",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "最广泛"
+      },
+      {
+        "letter": "B",
+        "content": "最真实"
+      },
+      {
+        "letter": "C",
+        "content": "最管用"
+      },
+      {
+        "letter": "D",
+        "content": "最合理"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248154",
+    "question": "中国特色社会主义法治道路的核心要义是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持党的领导"
+      },
+      {
+        "letter": "B",
+        "content": "坚持中国特色社会主义制度"
+      },
+      {
+        "letter": "C",
+        "content": "贯彻中国特色社会主义法治理论"
+      },
+      {
+        "letter": "D",
+        "content": "坚持社会主义根本制度"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248155",
+    "question": "关于政治和法治的关系，下列说法正确的是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "法治要脱离政治的影响，才能确保公平正义"
+      },
+      {
+        "letter": "B",
+        "content": "法治当中有政治，没有脱离政治的法治"
+      },
+      {
+        "letter": "C",
+        "content": "政治和法治相互依存，相互作用，密不可分"
+      },
+      {
+        "letter": "D",
+        "content": "党和法的关系是政治和法治关系的集中反映"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BCD"
+  },
+  {
+    "id": "405248156",
+    "question": "坚持依宪治国、依宪执政，就必须( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持宪法确定的中国共产党领导地位不动摇"
+      },
+      {
+        "letter": "B",
+        "content": "坚持宪法确定的人民民主专政的国体和人民代表大会的政体不动摇"
+      },
+      {
+        "letter": "C",
+        "content": "坚持走“宪政”道路不动摇"
+      },
+      {
+        "letter": "D",
+        "content": "学习西方“三权鼎立”制度"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248157",
+    "question": "全面依法治国是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "国家治理的一场深刻革命，关系党执政兴国，关系人民幸福安康"
+      },
+      {
+        "letter": "B",
+        "content": "完善和发展中国特色社会主义制度、推进国家治理体系和治理能力现代化的重 要方面"
+      },
+      {
+        "letter": "C",
+        "content": "坚持和发展中国特色社会主义的本质要求和重要保障"
+      },
+      {
+        "letter": "D",
+        "content": "“四个全面”战略布局之一"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248158",
+    "question": "要坚持( )相结合，实现法治和德治相辅相成、相得益彰。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "依法治国"
+      },
+      {
+        "letter": "B",
+        "content": "协同发展"
+      },
+      {
+        "letter": "C",
+        "content": "全面发展"
+      },
+      {
+        "letter": "D",
+        "content": "以德治国"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AD"
+  },
+  {
+    "id": "405248159",
+    "question": "二十大报告指出，十年来，我们经历了对党和人民事业具有重大现实意义和深远历史意义的三件大事:( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "迎来中国共产党成立一百周年"
+      },
+      {
+        "letter": "B",
+        "content": "中国特色社会主义进入新时代"
+      },
+      {
+        "letter": "C",
+        "content": "完成脱贫攻坚、全面建成小康社会的历史任务，实现第一个百年奋斗目标"
+      },
+      {
+        "letter": "D",
+        "content": "全面建设社会主义现代化国家"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248160",
+    "question": "习近平新时代中国特色社会主义思想具有鲜明的( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "实践特色"
+      },
+      {
+        "letter": "B",
+        "content": "理论特色"
+      },
+      {
+        "letter": "C",
+        "content": "民族特色"
+      },
+      {
+        "letter": "D",
+        "content": "时代特色"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248161",
+    "question": "新时代全部理论和实践的着力点即是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "中国特色社会主义讲的是方向性质问题"
+      },
+      {
+        "letter": "B",
+        "content": "社会主义现代化强国讲的是目标路径问题"
+      },
+      {
+        "letter": "C",
+        "content": "长期执政的马克思主义政党讲的是力量保证问题"
+      },
+      {
+        "letter": "D",
+        "content": "人的综合素质全面提高讲的是人的发展问题"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248162",
+    "question": "十九大、十九届六中全会提出的( )概括了习近平新时代中国特色社会主义思想的主要内容，必须长期坚持并不断丰富发展。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "“四个全面”"
+      },
+      {
+        "letter": "B",
+        "content": "“十个明确”"
+      },
+      {
+        "letter": "C",
+        "content": "“十四个坚持”"
+      },
+      {
+        "letter": "D",
+        "content": "“十三个方面成就”"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BCD"
+  },
+  {
+    "id": "405248163",
+    "question": "“两个确立”反映了全党全军全国各族人民共同心愿，指的是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "确立中国共产党的领导地位"
+      },
+      {
+        "letter": "B",
+        "content": "确立习近平同志党中央的核心、全党的核心地位"
+      },
+      {
+        "letter": "C",
+        "content": "确立马克思主义理论的指导地位"
+      },
+      {
+        "letter": "D",
+        "content": "确立习近平新时代中国特色社会主义思想的指导地位"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BD"
+  },
+  {
+    "id": "405248164",
+    "question": "习近平新时代中国特色社会主义思想为马克思主义在当今时代的大发展作出了( )贡献。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "开创性"
+      },
+      {
+        "letter": "B",
+        "content": "全面性"
+      },
+      {
+        "letter": "C",
+        "content": "历史性"
+      },
+      {
+        "letter": "D",
+        "content": "开放性"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248165",
+    "question": "在两个结合中推进马克思主义中国化,两个结合指的是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持把马克思主义基本原理同中国具体实际相结合"
+      },
+      {
+        "letter": "B",
+        "content": "坚持把马克思主义基本原理同当代实际结合"
+      },
+      {
+        "letter": "C",
+        "content": "坚持把马克思主义基本原理同中华优秀传统文化相结合"
+      },
+      {
+        "letter": "D",
+        "content": "坚持把马克思主义基本原理同中国特色社会主义相结合"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AC"
+  },
+  {
+    "id": "405248166",
+    "question": "习近平新时代中国特色社会主义思想具有鲜明的理论品格，其中最鲜明突出的是 ( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "秉持人民至上、突出问题导向"
+      },
+      {
+        "letter": "B",
+        "content": "彰显历史自觉、强化战略思维"
+      },
+      {
+        "letter": "C",
+        "content": "坚持实事求是、发扬斗争精神"
+      },
+      {
+        "letter": "D",
+        "content": "把握发展大势、应对共同挑战"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248167",
+    "question": "学好用好习近平新时代中国特色社会主义思想要切实做到( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "把握贯穿其中的立场观点方法"
+      },
+      {
+        "letter": "B",
+        "content": "坚持读原著学原文悟原理"
+      },
+      {
+        "letter": "C",
+        "content": "带着问题学、联系实际学"
+      },
+      {
+        "letter": "D",
+        "content": "用党的创新理论认识世界、改造世界"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248168",
+    "question": "2019年5月，习近平总书记在江西考察时指出:领导干部要胸怀两个大局，一个是（） ，一个是（） ,这是我们谋划工作的基本出发点。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "中华民族伟大复兴的战略全局"
+      },
+      {
+        "letter": "B",
+        "content": "社会主义现代化强国建设的全局"
+      },
+      {
+        "letter": "C",
+        "content": "人类命运共同体之大局"
+      },
+      {
+        "letter": "D",
+        "content": "世界百年未有之大变局"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AD"
+  },
+  {
+    "id": "405248169",
+    "question": "作为一种理论创新，习近平新时代中国特色社会主义思想对新时代重大理论和实践问题的深邃思考，回答了三个重大时代课题，分别是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "新时代坚持和发展什么样的中国特色社会主义、怎样坚持和发展中国特色社会主义"
+      },
+      {
+        "letter": "B",
+        "content": "建设什么样的社会主义现代化强国、怎样建设社会主义现代化强国"
+      },
+      {
+        "letter": "C",
+        "content": "建设什么样的文化强国、怎样建设文化强国"
+      },
+      {
+        "letter": "D",
+        "content": "建设什么样的长期执政的马克思主义政党、怎样建设长期执政的马克思主义政党"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABD"
+  },
+  {
+    "id": "405248170",
+    "question": "明确党在新时代的强军目标是建设一支( )的人民军队，把人民军队建设成为世界一流军队。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "听党指挥"
+      },
+      {
+        "letter": "B",
+        "content": "能打胜仗"
+      },
+      {
+        "letter": "C",
+        "content": "现代化强"
+      },
+      {
+        "letter": "D",
+        "content": "作风优良"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABD"
+  },
+  {
+    "id": "405248171",
+    "question": "明确坚持和发展中国特色社会主义，总任务是实现( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "社会主义现代化"
+      },
+      {
+        "letter": "B",
+        "content": "中华民族伟大复兴"
+      },
+      {
+        "letter": "C",
+        "content": "全面建成小康社会"
+      },
+      {
+        "letter": "D",
+        "content": "实现全面从严治党"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248172",
+    "question": "明确全面深化改革总目标是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "完善和发展中国特色社会主义制度"
+      },
+      {
+        "letter": "B",
+        "content": "实现社会主义现代化强国"
+      },
+      {
+        "letter": "C",
+        "content": "全面建成小康社会"
+      },
+      {
+        "letter": "D",
+        "content": "推进国家治理体系和治理能力现代化"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AD"
+  },
+  {
+    "id": "405248173",
+    "question": "明确全面推进依法治国总目标是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "建设中国特色社会主义法治体系"
+      },
+      {
+        "letter": "B",
+        "content": "建设社会主义现代化法制国家"
+      },
+      {
+        "letter": "C",
+        "content": "建设社会主义法治国家"
+      },
+      {
+        "letter": "D",
+        "content": "实现全面依法治国"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AC"
+  },
+  {
+    "id": "405248174",
+    "question": "明确中国特色大国外交要（ ），推动建设新型国际关系，推动构建人类命运共同体。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "服务民族复兴"
+      },
+      {
+        "letter": "B",
+        "content": "促进世界和平"
+      },
+      {
+        "letter": "C",
+        "content": "促进人类进步"
+      },
+      {
+        "letter": "D",
+        "content": "实现世界大同"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AC"
+  },
+  {
+    "id": "405248175",
+    "question": "提出出新时代党的建设总要求，全面推进党的( )纪律建设，把制度建设贯穿其中，深入推进反腐败斗争，落实管党治党政治责任，以伟大自我革命引领伟大社会革命。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "政治建设"
+      },
+      {
+        "letter": "B",
+        "content": "思想建设"
+      },
+      {
+        "letter": "C",
+        "content": "组织建设"
+      },
+      {
+        "letter": "D",
+        "content": "作风建设"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248176",
+    "question": "把握新发展阶段，贯彻( )的新发展理念，加快构建以国内大循环为主体、国内国际双循环相互促进的新发展格局，推动高质量发展，统筹发展和安全。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "创新"
+      },
+      {
+        "letter": "B",
+        "content": "协调"
+      },
+      {
+        "letter": "C",
+        "content": "绿色"
+      },
+      {
+        "letter": "D",
+        "content": "开放"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248177",
+    "question": "我国社会主要矛盾的变化( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "没有改变我们对我国社会主义所处历史阶段的判断"
+      },
+      {
+        "letter": "B",
+        "content": "我国仍处于并将长期处于社会主义初级阶段的基本国情没有变"
+      },
+      {
+        "letter": "C",
+        "content": "我国是世界最大发展中国家的国际地位没有变"
+      },
+      {
+        "letter": "D",
+        "content": "我国已经进入到发达国家行列"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248178",
+    "question": "习近平新时代中国特色社会主义思想是当代中国马克思主义、二十一世纪马克思主义，是( )的时代精华，实现了马克思主义中国化新的飞跃。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "中华文化"
+      },
+      {
+        "letter": "B",
+        "content": "中华品格"
+      },
+      {
+        "letter": "C",
+        "content": "中国精神"
+      },
+      {
+        "letter": "D",
+        "content": "中国力量"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AC"
+  },
+  {
+    "id": "405248179",
+    "question": "中国特色社会主义新时代，( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "是承前启后、继往开来，在新的历史条件下继续夺取中国特色社会主义伟大胜利的时代。"
+      },
+      {
+        "letter": "B",
+        "content": "是决胜全面建成小康社会、进而全面建设社会主义现代化强国的时代。"
+      },
+      {
+        "letter": "C",
+        "content": "是全国各族人民团结奋斗、不断创造美好生活、逐步实现全体人民共同富裕的时代."
+      },
+      {
+        "letter": "D",
+        "content": "全体中华儿女勠力同心、奋力实现中华民族伟大复兴中国梦的时代。"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248180",
+    "question": "中国特色社会主义是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "既坚持科学社会主义基本原则，又具有鲜明实践特色、理论特色、民族特色、时代特色的社会主义"
+      },
+      {
+        "letter": "B",
+        "content": "是中国特色社会主义道路、理论、制度、文化四位一体的社会主义"
+      },
+      {
+        "letter": "C",
+        "content": "是统揽伟大斗争、伟大工程、伟大事业、伟大梦想的社会主义"
+      },
+      {
+        "letter": "D",
+        "content": "是根植于中国大地、反映中国人民意愿、适应中国和时代发展进步要求的社会主义"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248181",
+    "question": "坚持把马克思主义基本原理同( )相结合，用马克思主义观察时代、把握时代、引领时代，继续发展当代中国马克思主义、21世纪马克思主义。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "中国具体实际相结合"
+      },
+      {
+        "letter": "B",
+        "content": "中华优秀传统文化"
+      },
+      {
+        "letter": "C",
+        "content": "中国精神"
+      },
+      {
+        "letter": "D",
+        "content": "民族特色"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248182",
+    "question": "中国特色社会主义事业总体布局是“五位一体”、战略布局是“四个全面”，强调坚定( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "道路自信"
+      },
+      {
+        "letter": "B",
+        "content": "理论自信"
+      },
+      {
+        "letter": "C",
+        "content": "制度自信"
+      },
+      {
+        "letter": "D",
+        "content": "文化自信"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248183",
+    "question": "习近平新时代中国特色社会主义思想坚持以社会主义现代化建设进程中的实际问题、以我们正在做的事情为中心，着眼统揽( )，大智慧谋划大格局，大手笔续写大文章，是实践探索、经验总结、理论升华凝结而成的思想结晶。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "伟大斗争"
+      },
+      {
+        "letter": "B",
+        "content": "伟大工程"
+      },
+      {
+        "letter": "C",
+        "content": "伟大使命"
+      },
+      {
+        "letter": "D",
+        "content": "伟大梦想"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABD"
+  },
+  {
+    "id": "405248184",
+    "question": "坚持和发展中国特色社会主义的总任务是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "解放和发展社会生产力"
+      },
+      {
+        "letter": "B",
+        "content": "实现社会主义现代化和中华民族伟大复兴"
+      },
+      {
+        "letter": "C",
+        "content": "在全面建成小康社会的基础上，分两步走在本世纪中叶建成富强民主文明和谐美丽的社会主义现代化强国"
+      },
+      {
+        "letter": "D",
+        "content": "以中国式现代化推进中华民族伟大复兴"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BCD"
+  },
+  {
+    "id": "405248185",
+    "question": "中国特色社会主义是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "在改革开放 40 多年的伟大实践中得来的"
+      },
+      {
+        "letter": "B",
+        "content": "在新中国成立 70 多年的持续探索中得来的"
+      },
+      {
+        "letter": "C",
+        "content": "在中国共产党领导人民进行伟大社会革命 100 多年的实践中得来的"
+      },
+      {
+        "letter": "D",
+        "content": "在近代以来中华民族由衰到盛 180 多年的历史进程中得来的"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248186",
+    "question": "中国特色社会主义坚持科学社会主义基本原则，并赋予其鲜明的中国特色,包括( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持人民代表大会制度的根本政治制度"
+      },
+      {
+        "letter": "B",
+        "content": "中国共产党领导的多党合作和政治协商制度"
+      },
+      {
+        "letter": "C",
+        "content": "坚持公有制为主体多种所有制经济共同发展"
+      },
+      {
+        "letter": "D",
+        "content": "坚持按劳分配为主体多种分配方式并存"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248187",
+    "question": "改革开放以来，我们取得一切成绩和进步的根本原因，就是( ).",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "开辟了中国特色社会主义道路"
+      },
+      {
+        "letter": "B",
+        "content": "形成了中国特色社会主义理论体系"
+      },
+      {
+        "letter": "C",
+        "content": "确立了中国特色社会主义制度"
+      },
+      {
+        "letter": "D",
+        "content": "发展了中国特色社会主义文化"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248188",
+    "question": "中国特色社会主义制度的根本制度有( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "党的领导制度"
+      },
+      {
+        "letter": "B",
+        "content": "人民代表大会制度"
+      },
+      {
+        "letter": "C",
+        "content": "马克思主义指导制度"
+      },
+      {
+        "letter": "D",
+        "content": "基层群众自治制度"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248189",
+    "question": "中国特色社会主义进入了新时代的判断，是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "基于我国发展进入新阶段的伟大成就"
+      },
+      {
+        "letter": "B",
+        "content": "基于社会主要矛盾发生新变化"
+      },
+      {
+        "letter": "C",
+        "content": "基于党的新的奋斗目标"
+      },
+      {
+        "letter": "D",
+        "content": "基于我国面临新的国际环境。"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248190",
+    "question": "我国社会主要矛盾的变化( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "没有改变我们对我国社会主义所处历史阶段的判断"
+      },
+      {
+        "letter": "B",
+        "content": "我国仍处于并将长期处于社会主义初级阶段的基本国情没有变"
+      },
+      {
+        "letter": "C",
+        "content": "我国是世界最大发展中国家的国际地位没有变"
+      },
+      {
+        "letter": "D",
+        "content": "以上都正确"
+      }
+    ],
+    "my_answer": "AC",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248191",
+    "question": "中国特色社会主义制度( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持把根本制度、基本制度、重要制度以及各方面体制机制等具体制度有机结合起来"
+      },
+      {
+        "letter": "B",
+        "content": "坚持把国家层面民主制度同基层民主制度有机结合起来"
+      },
+      {
+        "letter": "C",
+        "content": "坚持把党的领导、人民当家作主、依法治国有机结合起来"
+      },
+      {
+        "letter": "D",
+        "content": "既坚持了社会主义的根本性质，又借鉴了古今中外制度建设的有益成果。"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248192",
+    "question": "中国特色社会主义文化( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "是激励全党全国各族人民奋勇前进的强大精神力量"
+      },
+      {
+        "letter": "B",
+        "content": "它源自于 5000 多年文明历史的中华优秀传统文化"
+      },
+      {
+        "letter": "C",
+        "content": "熔铸于党领导人民在革命、建设、改革中创造的革命文化和社会主义先进文化"
+      },
+      {
+        "letter": "D",
+        "content": "植根于中国特色社会主义伟大实践"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248193",
+    "question": "党的二十大指出，新时代新征程中国共产党的中心任务，就是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "团结带领全国各族人民全面建成社会主义现代化强国"
+      },
+      {
+        "letter": "B",
+        "content": "实现第二个百年奋斗目标"
+      },
+      {
+        "letter": "C",
+        "content": "以中国式现代化全面推进中华民族伟大复兴"
+      },
+      {
+        "letter": "D",
+        "content": "贯彻新发展理念，促进高质量发展"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248194",
+    "question": "坚持和发展中国特色社会主义的总任务是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "解放和发展社会生产力"
+      },
+      {
+        "letter": "B",
+        "content": "实现社会主义现代化和中华民族伟大复兴"
+      },
+      {
+        "letter": "C",
+        "content": "在全面建成小康社会的基础上，分两步走在本世纪中叶建成富强民主文明和谐美丽的社会主义现代化强国"
+      },
+      {
+        "letter": "D",
+        "content": "中国梦是中华民族伟大复兴的形象表达"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BCD"
+  },
+  {
+    "id": "405248195",
+    "question": "中国梦的科学内涵是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "国家富强"
+      },
+      {
+        "letter": "B",
+        "content": "社会和谐"
+      },
+      {
+        "letter": "C",
+        "content": "民族振兴"
+      },
+      {
+        "letter": "D",
+        "content": "人民幸福"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ACD"
+  },
+  {
+    "id": "405248196",
+    "question": "中国梦的实现途径是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持中国道路"
+      },
+      {
+        "letter": "B",
+        "content": "维护世界和平"
+      },
+      {
+        "letter": "C",
+        "content": "弘扬中国精神"
+      },
+      {
+        "letter": "D",
+        "content": "凝聚中国力量"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ACD"
+  },
+  {
+    "id": "405248197",
+    "question": "关于中国梦的内涵理解正确的是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "核心内容是国家富强、民族振兴、人民幸福"
+      },
+      {
+        "letter": "B",
+        "content": "中国梦是国家的梦、民族的梦、归根到底是人民的梦"
+      },
+      {
+        "letter": "C",
+        "content": "国家富强、民族振兴是人民幸福的基础和保障"
+      },
+      {
+        "letter": "D",
+        "content": "人民幸福是国家富强、民族振兴的根本出发点和落脚点"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248198",
+    "question": "我们确立了“两个一百年”奋斗目标，就是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "到2020年实现国内生产总值和城乡居民人均收入比2010年翻一番，全面建成小康社会"
+      },
+      {
+        "letter": "B",
+        "content": "到本世纪中叶建成富强民主文明和谐美丽的社会主义现代化国家，实现中华民族伟大复兴"
+      },
+      {
+        "letter": "C",
+        "content": "到2035年，基本建成社会主义现代化国家"
+      },
+      {
+        "letter": "D",
+        "content": "到2025年，实现工业强国目标"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248199",
+    "question": "党的十九大报告中提出全面建设社会主义现代化国家的进程分两个阶段来安排( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "第一阶段，从2017年到2037年在全面建成小康社会的基础上，再奋斗15年，基本实现社会主义现代化"
+      },
+      {
+        "letter": "B",
+        "content": "第二个阶段，从2037年到本世纪中叶在基本实现现代化的基础上，再奋斗15年，把我国建成富强民主文明和谐美丽的社会主义现代化强国"
+      },
+      {
+        "letter": "C",
+        "content": "第一个阶段，从2020年到2035年，在全面建成小康社会的基础上，再奋斗15年，基本实现社会主义现代化"
+      },
+      {
+        "letter": "D",
+        "content": "第二个阶段，从2035年到本世纪中叶，在基本实现现代化的基础上，再奋斗15年，把我国建成富强民主文明和谐美丽的社会主义现代化强国"
+      }
+    ],
+    "my_answer": "AD",
+    "right_answer": "CD"
+  },
+  {
+    "id": "405248200",
+    "question": "中国梦是( )的梦，与世界各国人民的美好梦想相通。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "和平"
+      },
+      {
+        "letter": "B",
+        "content": "发展"
+      },
+      {
+        "letter": "C",
+        "content": "合作"
+      },
+      {
+        "letter": "D",
+        "content": "共赢"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248201",
+    "question": "（）是我们党的初心和使命，是党领导现代化建设的出发点和落脚点，也是新发展理念的“根”和“魂。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "为人民谋幸福"
+      },
+      {
+        "letter": "B",
+        "content": "为人民谋复兴"
+      },
+      {
+        "letter": "C",
+        "content": "为民族谋复兴"
+      },
+      {
+        "letter": "D",
+        "content": "为民族谋幸福"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AC"
+  },
+  {
+    "id": "405248202",
+    "question": "从2020年到2035年，基本实现社会主义现代化的目标要求( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "在经济建设方面，我国经济实力、科技实力将大幅跃升，跻身创新型国家前列"
+      },
+      {
+        "letter": "B",
+        "content": "在政治建设方面，人民平等参与、平等发展权利得到充分保障，法治国家、法治政府、法治社会基本建成，各方面制度更加完善，国家治理体系和治理能力现代化基本实现"
+      },
+      {
+        "letter": "C",
+        "content": "在文化建设方面，社会文明程度达到新的高度，国家文化软实力显著增强，中华文化影响更加广泛深入"
+      },
+      {
+        "letter": "D",
+        "content": "在生态文明建设方面，生态环境根本好转，美丽中国目标基本实现"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248203",
+    "question": "从2035年到本世纪中叶，建成社会主义现代化强国的目标要求( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "我国将拥有高度的物质文明，社会生产力水平大幅提高，核心竞争力名列世界前茅，经济总量和市场规模超越其他国家"
+      },
+      {
+        "letter": "B",
+        "content": "我国将拥有高度的政治文明，形成又有集中又有民主、又有纪律又有自由、又有统一意志又有个人心情舒畅生动活泼的政治局面，依法治国和以德治国有机结合"
+      },
+      {
+        "letter": "C",
+        "content": "我国将拥有高度的精神文明，践行社会主义核心价值观成为全社会自觉行动，国民素质显著提高，中国精神、中国价值、中国力量成为中国发展的重要影响力和推动力"
+      },
+      {
+        "letter": "D",
+        "content": "我国将拥有高度的社会文明，城乡居民将普遍拥有较高的收入、富裕的生活、健全的基本公共服务"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248204",
+    "question": "全面建成了小康社会的重大意义是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "意味着中华民族实现千百年来的夙愿"
+      },
+      {
+        "letter": "B",
+        "content": "表明我国发展和人民生活水平跃上新的大台阶"
+      },
+      {
+        "letter": "C",
+        "content": "表明我国已经实现了由高速发展向高质量发展转变"
+      },
+      {
+        "letter": "D",
+        "content": "是实现中华民族伟大复兴征程中的关键一步"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABD"
+  },
+  {
+    "id": "405248205",
+    "question": "中国式现代化的特征是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "人口规模巨大的现代化"
+      },
+      {
+        "letter": "B",
+        "content": "全体人民共同发展的现代化"
+      },
+      {
+        "letter": "C",
+        "content": "物质文明和精神文明相协调的现代化"
+      },
+      {
+        "letter": "D",
+        "content": "人与自然和谐共生的现代化"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ACDE"
+  },
+  {
+    "id": "405248206",
+    "question": "中国式现代化( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "深深植根于中华优秀传统文化"
+      },
+      {
+        "letter": "B",
+        "content": "体现科学社会主义的先进本质"
+      },
+      {
+        "letter": "C",
+        "content": "借鉴吸收一切人类优秀文明成果"
+      },
+      {
+        "letter": "D",
+        "content": "代表人类文明进步的发展方向"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248207",
+    "question": "中国式现代化的本质要求是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持中国共产党领导"
+      },
+      {
+        "letter": "B",
+        "content": "坚持中国特色社会主义"
+      },
+      {
+        "letter": "C",
+        "content": "实现高质量发展"
+      },
+      {
+        "letter": "D",
+        "content": "发展全过程人民民主"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248208",
+    "question": "推进中国式现代化需要牢牢把握的重大原则是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持和加强党的全面领导"
+      },
+      {
+        "letter": "B",
+        "content": "坚持中国特色社会主义道路"
+      },
+      {
+        "letter": "C",
+        "content": "坚持以人民为中心的发展思想"
+      },
+      {
+        "letter": "D",
+        "content": "坚持深化改革开放"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248209",
+    "question": "推进中国式现代化需要正确处理的重大关系是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "正确处理顶层设计与实践探索的关系"
+      },
+      {
+        "letter": "B",
+        "content": "正确处理战略与策略的关系"
+      },
+      {
+        "letter": "C",
+        "content": "正确处理守正与创新的关系"
+      },
+      {
+        "letter": "D",
+        "content": "正确处理效率与公平的关系"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248210",
+    "question": "中国共产党领导是中国特色社会主义最本质的特征，( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "这是在近代以来中国历史发展中形成的"
+      },
+      {
+        "letter": "B",
+        "content": "这是由中国最广大人民根本利益决定的"
+      },
+      {
+        "letter": "C",
+        "content": "这是实现中华民族伟大复兴历史任务决定的"
+      },
+      {
+        "letter": "D",
+        "content": "这决定了中国特色社会主义其他特点和特征"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248211",
+    "question": "中国特色社会主义之所以是社会主义，究其根本就在于( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持科学社会主义基本原则"
+      },
+      {
+        "letter": "B",
+        "content": "坚持中国共产党的领导"
+      },
+      {
+        "letter": "C",
+        "content": "坚持按劳分配"
+      },
+      {
+        "letter": "D",
+        "content": "坚持社会主义市场经济体制"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248212",
+    "question": "全面加强党的领导( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "使我们有效应对严峻复杂的国际形势和接踵而至的巨大风险挑战"
+      },
+      {
+        "letter": "B",
+        "content": "有力推进了党和国家各项事业的顺利发展"
+      },
+      {
+        "letter": "C",
+        "content": "胜利实现了全面建成小康社会的战略目标"
+      },
+      {
+        "letter": "D",
+        "content": "开启了全面建设社会主义现代化国家新征程。"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248213",
+    "question": "健全党的全面领导制度，必须( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持党纵览全局、协调各方的领导核心地位"
+      },
+      {
+        "letter": "B",
+        "content": "健全党中央实行全面领导的体制机制"
+      },
+      {
+        "letter": "C",
+        "content": "严格执行向党中央请示报告制度"
+      },
+      {
+        "letter": "D",
+        "content": "深化党和国家机构改革"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248214",
+    "question": "党的领导是做好党和国家各项工作的根本保证，是我国( )的根本点，绝对不能有丝毫动摇。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "民族团结"
+      },
+      {
+        "letter": "B",
+        "content": "社会稳定"
+      },
+      {
+        "letter": "C",
+        "content": "政治稳定"
+      },
+      {
+        "letter": "D",
+        "content": "经济发展"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248215",
+    "question": "确保党始终总揽全局、协调各方，必须增强政治意识( )自觉维护党中央权威和集中统一领导，自觉在思想上政治上行动上同党中央保持高度一致。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "大局意识"
+      },
+      {
+        "letter": "B",
+        "content": "核心意识"
+      },
+      {
+        "letter": "C",
+        "content": "中心意识"
+      },
+      {
+        "letter": "D",
+        "content": "看齐意识"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABD"
+  },
+  {
+    "id": "405248216",
+    "question": "党是最高政治领导力量，这是由我国( )所决定的。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "国家性质"
+      },
+      {
+        "letter": "B",
+        "content": "国体政体"
+      },
+      {
+        "letter": "C",
+        "content": "经济基础"
+      },
+      {
+        "letter": "D",
+        "content": "经济制度"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248217",
+    "question": "坚持和完善党的领导，是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "党和国家的根本所在、命脉所在"
+      },
+      {
+        "letter": "B",
+        "content": "全国各族人民的利益所在、幸福所在"
+      },
+      {
+        "letter": "C",
+        "content": "中国特色社会主义最本质的特征"
+      },
+      {
+        "letter": "D",
+        "content": "中国特色社会主义制度的最大优势"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248218",
+    "question": "中国共产党是中国特色社会主义事业的( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "开创造"
+      },
+      {
+        "letter": "B",
+        "content": "推动者"
+      },
+      {
+        "letter": "C",
+        "content": "领导者"
+      },
+      {
+        "letter": "D",
+        "content": "发动者"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248219",
+    "question": "党章规定的民主集中制要求( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "党员个人服从党的组织"
+      },
+      {
+        "letter": "B",
+        "content": "少数服从多数"
+      },
+      {
+        "letter": "C",
+        "content": "下级组织服从上级组织"
+      },
+      {
+        "letter": "D",
+        "content": "全党各个组织和全体党员服从党的全国代表大会和中央委员会"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248220",
+    "question": "坚持和加强党的全面领导，使党的( )显著增强.",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "政治领导力"
+      },
+      {
+        "letter": "B",
+        "content": "思想引领力"
+      },
+      {
+        "letter": "C",
+        "content": "群众组织力"
+      },
+      {
+        "letter": "D",
+        "content": "社会号召力"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248221",
+    "question": "疫情防控是一场全民参与的阻击战，也是党性的练兵场、检阅场。让党旗在防控疫情斗争第一线高高飘扬，为打赢疫情防控阻击战提供坚强组织保证，是党中央的再三强调。这要求广大共产党员( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "发挥总揽全局、协调各方的领导作用"
+      },
+      {
+        "letter": "B",
+        "content": "发挥先锋模范作用，在危难时刻挺身而出"
+      },
+      {
+        "letter": "C",
+        "content": "坚持人民主体地位，坚持立党为公、执政为民"
+      },
+      {
+        "letter": "D",
+        "content": "增强政治意识、大局意识、核心意识、看齐意识"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BD"
+  },
+  {
+    "id": "405248222",
+    "question": "坚持党的全面领导，既要政治过硬，也要本领高强。要着力提高党( )的能力和定力，善于处理各种复杂矛盾，勇于战胜各种艰难险阻，牢牢把握工作主动权，把党总揽全局、协调各方落到实处。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "把方向"
+      },
+      {
+        "letter": "B",
+        "content": "谋大局"
+      },
+      {
+        "letter": "C",
+        "content": "定政策"
+      },
+      {
+        "letter": "D",
+        "content": "促改革"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248223",
+    "question": "2016年10月，党的十八届六中全会正式确立习近平总书记党中央的核心、全党的核心地位，要求全党必须牢固树立“四个意识”。“四个意识”包括( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "政治意识"
+      },
+      {
+        "letter": "B",
+        "content": "大局意识"
+      },
+      {
+        "letter": "C",
+        "content": "核心意识"
+      },
+      {
+        "letter": "D",
+        "content": "看齐意识"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248224",
+    "question": "江山就是人民，人民就是江山，这是由我们党的( )决定的。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "性质"
+      },
+      {
+        "letter": "B",
+        "content": "宗旨"
+      },
+      {
+        "letter": "C",
+        "content": "原则"
+      },
+      {
+        "letter": "D",
+        "content": "纲领"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248225",
+    "question": "对“江山就是人民、人民就是江山”的理解是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "闪耀着历史唯物主义的真理光芒"
+      },
+      {
+        "letter": "B",
+        "content": "充分说明我国国体政体的人民性"
+      },
+      {
+        "letter": "C",
+        "content": "人民是我们党的生命之根、执政之基、力量之源"
+      },
+      {
+        "letter": "D",
+        "content": "这是由我们党的性质、宗旨决定的"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248226",
+    "question": "坚持人民立场，就要做到( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "与人民风雨同舟、生死与共"
+      },
+      {
+        "letter": "B",
+        "content": "始终牢记党的初心和使命"
+      },
+      {
+        "letter": "C",
+        "content": "始终保持党同人民群众的血肉联系"
+      },
+      {
+        "letter": "D",
+        "content": "坚持以人民为中心的执政理念"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248227",
+    "question": "党依靠人民创造历史伟业，就要做到( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "尊重人民主体地位"
+      },
+      {
+        "letter": "B",
+        "content": "尊重人民首创精神"
+      },
+      {
+        "letter": "C",
+        "content": "激发人民群众的创新创造活力"
+      },
+      {
+        "letter": "D",
+        "content": "总结、概括人民群众实践中形成的新鲜经验"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248228",
+    "question": "坚持人民立场，就要始终牢记党的( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "初心"
+      },
+      {
+        "letter": "B",
+        "content": "使命"
+      },
+      {
+        "letter": "C",
+        "content": "性质"
+      },
+      {
+        "letter": "D",
+        "content": "宗旨"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248229",
+    "question": "( )是中国共产党人的初心和使命，是激励一代代中国共产党人前仆后继、英勇奋斗的根本动力。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "为中国人民谋幸福"
+      },
+      {
+        "letter": "B",
+        "content": "为中华民族谋复兴"
+      },
+      {
+        "letter": "C",
+        "content": "为人类谋解放"
+      },
+      {
+        "letter": "D",
+        "content": "为世界谋大同"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248230",
+    "question": "坚持人民立场，就要( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "热爱人民"
+      },
+      {
+        "letter": "B",
+        "content": "尊重人民"
+      },
+      {
+        "letter": "C",
+        "content": "回报人民"
+      },
+      {
+        "letter": "D",
+        "content": "敬畏人民"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABD"
+  },
+  {
+    "id": "405248231",
+    "question": "人民是我们党的( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "生存之本"
+      },
+      {
+        "letter": "B",
+        "content": "生命之根"
+      },
+      {
+        "letter": "C",
+        "content": "执政之基"
+      },
+      {
+        "letter": "D",
+        "content": "力量之源"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BCD"
+  },
+  {
+    "id": "405248232",
+    "question": "不论过去、现在和将来，我们都要坚持( )，把党的( )把群众路线贯彻到治国理政全部活动之中。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "一切为了群众"
+      },
+      {
+        "letter": "B",
+        "content": "一切依靠群众"
+      },
+      {
+        "letter": "C",
+        "content": "从群众中来到群众中去"
+      },
+      {
+        "letter": "D",
+        "content": "正确主张变为群众的自觉行动"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248233",
+    "question": "要始终( )，作为检验工作的最终评判标准。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "把人民放在心中最高位置"
+      },
+      {
+        "letter": "B",
+        "content": "树立正确的政绩观"
+      },
+      {
+        "letter": "C",
+        "content": "以人民满意不满意"
+      },
+      {
+        "letter": "D",
+        "content": "人民生活幸福程度"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248234",
+    "question": "只要我们始终( )，就没有克服不了的困难，就没有越不过的险滩，就没有完成不了的任务。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "保持同人民群众的血肉联系"
+      },
+      {
+        "letter": "B",
+        "content": "紧紧依靠人民"
+      },
+      {
+        "letter": "C",
+        "content": "不断造福人民"
+      },
+      {
+        "letter": "D",
+        "content": "牢牢植根人民"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248235",
+    "question": "领导干部要树立这样的政绩观( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "以人民满意不满意作为检验工作的最终评判标准"
+      },
+      {
+        "letter": "B",
+        "content": "把为民办事、为民造福作为最重要的政绩"
+      },
+      {
+        "letter": "C",
+        "content": "把为老百姓办了多少好事实事作为检验政绩的重要标准"
+      },
+      {
+        "letter": "D",
+        "content": "以国内生产总值增长率论英雄"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248236",
+    "question": "坚持以人民为中心的发展思想，要求( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持和贯彻党的群众路线"
+      },
+      {
+        "letter": "B",
+        "content": "把以人民为中心的发展思想切实贯穿到党和国家事业各方面"
+      },
+      {
+        "letter": "C",
+        "content": "推动全体人民共同富裕取得更为明显的实质性进展。"
+      },
+      {
+        "letter": "D",
+        "content": "总结、概括人民群众实践中形成的新鲜经验"
+      }
+    ],
+    "my_answer": "ABC",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248237",
+    "question": "以人民为中心的发展思想，不是高高在上的宣传口号，绝对不能只停留在口头上，要全方位贯穿于经济社会发展的各个环节，体现在人民群众的( )扎实提升上。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "使命感"
+      },
+      {
+        "letter": "B",
+        "content": "获得感"
+      },
+      {
+        "letter": "C",
+        "content": "幸福感"
+      },
+      {
+        "letter": "D",
+        "content": "安全感"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BCD"
+  },
+  {
+    "id": "405248238",
+    "question": "()相统一，既是马克思主义的价值追求，也是社会主义的本质要求，更是中国共产党人的奋斗目标。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "促进人的全面发展"
+      },
+      {
+        "letter": "B",
+        "content": "促进社会稳定"
+      },
+      {
+        "letter": "C",
+        "content": "促进共同富裕"
+      },
+      {
+        "letter": "D",
+        "content": "促进经济发展"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AC"
+  },
+  {
+    "id": "405248239",
+    "question": "坚持以人民为中心的发展思想，就要在高质量发展中促进共同富裕，做到( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "发展为了人民"
+      },
+      {
+        "letter": "B",
+        "content": "发展幸福人民"
+      },
+      {
+        "letter": "C",
+        "content": "发展依靠人民"
+      },
+      {
+        "letter": "D",
+        "content": "发展成果由人民共享"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ACD"
+  },
+  {
+    "id": "405248240",
+    "question": "中国政府倡议，共建“一带一路”恪守联合国宪章的宗旨和原则，坚持( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "开放合作"
+      },
+      {
+        "letter": "B",
+        "content": "和谐包容"
+      },
+      {
+        "letter": "C",
+        "content": "市场运作"
+      },
+      {
+        "letter": "D",
+        "content": "互利共赢"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248241",
+    "question": "我们统筹国内国际两个大局，坚持对外开放的基本国策，实行积极主动的开放政策，形成( )的全面开放新格局，为我国创造了良好国际环境、开拓了广阔发展空间。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "全方位"
+      },
+      {
+        "letter": "B",
+        "content": "多层次"
+      },
+      {
+        "letter": "C",
+        "content": "宽领域"
+      },
+      {
+        "letter": "D",
+        "content": "多角度"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248242",
+    "question": "习近平强调:“我们的改革开放是有方向、有立场、有原则的。”要求改革开放( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "必须坚持和改善党的全面领导、坚持和完善中国特色社会主义制度"
+      },
+      {
+        "letter": "B",
+        "content": "必须坚持以人民为中心，促进社会公平正义、增进人民福祉"
+      },
+      {
+        "letter": "C",
+        "content": "必须在法治轨道上推进改革，不得通过修改法律的方式推进改革"
+      },
+      {
+        "letter": "D",
+        "content": "必须有利于进一步解放思想、进一步解放和发展社会生产力、进一步解放和增强社会活力"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABD"
+  },
+  {
+    "id": "405248243",
+    "question": "关于全面深化改革总目标，下列说法正确的是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "“完善和发展中国特色社会主义制度”，规定了改革的根本方向"
+      },
+      {
+        "letter": "B",
+        "content": "“推进国家治理体系和治理能力现代化”，明确了改革的鲜明指向和时代要求"
+      },
+      {
+        "letter": "C",
+        "content": "“完善和发展中国特色社会主义制度”，明确了改革的鲜明指向和时代要求"
+      },
+      {
+        "letter": "D",
+        "content": "“推进国家治理体系和治理能力现代化”，规定了改革的根本方向"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248244",
+    "question": "国家治理体系和治理能力是一个国家制度和制度执行能力的集中体现。下列说法正确的是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "国家治理体系是在党领导下管理国家的制度体系"
+      },
+      {
+        "letter": "B",
+        "content": "国家治理能力是运用国家制度管理社会各方面事务的能力"
+      },
+      {
+        "letter": "C",
+        "content": "国家治理能力可以不依赖国家制度，但国家治理体系必须依赖国家治理能力"
+      },
+      {
+        "letter": "D",
+        "content": "国家治理体系和治理能力是一个有机整体，相辅相成"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABD"
+  },
+  {
+    "id": "405248245",
+    "question": "推进国家治理体系和治理能力现代化，必须( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚定中国特色社会主义制度自信"
+      },
+      {
+        "letter": "B",
+        "content": "更好发挥中国特色社会主义制度优势"
+      },
+      {
+        "letter": "C",
+        "content": "把中国特色社会主义制度优势转化为国家治理效能"
+      },
+      {
+        "letter": "D",
+        "content": "使中国特色社会主义制度更加成熟更加定型"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248246",
+    "question": "全面深化改革开放要坚持正确方法论，包括( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "增强全面深化改革的系统性、整体性、协同性"
+      },
+      {
+        "letter": "B",
+        "content": "加强顶层设计和摸着石头过河相结合"
+      },
+      {
+        "letter": "C",
+        "content": "统筹改革发展稳定"
+      },
+      {
+        "letter": "D",
+        "content": "胆子要大，步子要稳"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248247",
+    "question": "现代化强国，必定是( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "教育强国"
+      },
+      {
+        "letter": "B",
+        "content": "科技强国"
+      },
+      {
+        "letter": "C",
+        "content": "人才强国"
+      },
+      {
+        "letter": "D",
+        "content": "生态强国"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248248",
+    "question": "全面建设社会主义现代化国家，必须坚持党管人才原则，( ),培养造就大批德才兼备的高素质人才，聚天下英才而用之，推动我国由人才大国迈向人才强国",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "尊重劳动"
+      },
+      {
+        "letter": "B",
+        "content": "尊重知识"
+      },
+      {
+        "letter": "C",
+        "content": "尊重人才"
+      },
+      {
+        "letter": "D",
+        "content": "尊重创造"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248249",
+    "question": "自主创新，就是从增强国家创新能力出发，加强( )，确保国家拥有自主可控的科技创新能力。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "原始创新"
+      },
+      {
+        "letter": "B",
+        "content": "集成创新"
+      },
+      {
+        "letter": "C",
+        "content": "多元创新"
+      },
+      {
+        "letter": "D",
+        "content": "开放创新"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABD"
+  },
+  {
+    "id": "405248250",
+    "question": "建设人才强国，必须( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "走好人才自主培养之路"
+      },
+      {
+        "letter": "B",
+        "content": "加快建设世界重要人才中心和创新高地"
+      },
+      {
+        "letter": "C",
+        "content": "坚持党对人才工作的多全面领导"
+      },
+      {
+        "letter": "D",
+        "content": "深化人才发展体制机制改革"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248251",
+    "question": "办好人民满意的教育，( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "大力促进教育公平"
+      },
+      {
+        "letter": "B",
+        "content": "加快建设高质量教育体系"
+      },
+      {
+        "letter": "C",
+        "content": "提升教育服务经济社会发展能力"
+      },
+      {
+        "letter": "D",
+        "content": "坚持深化教育改革创新"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248252",
+    "question": "全面建设社会主义现代化国家,( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "教育是根本"
+      },
+      {
+        "letter": "B",
+        "content": "科技是关键"
+      },
+      {
+        "letter": "C",
+        "content": "人才是基础"
+      },
+      {
+        "letter": "D",
+        "content": "改革是保证"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248253",
+    "question": "实施( )是增强综合国力、满足人民群众美好生活需要的必然要求，是建设教育强国、科技强国、人才强国的重大举措",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "科教兴国战略"
+      },
+      {
+        "letter": "B",
+        "content": "人才强国战略"
+      },
+      {
+        "letter": "C",
+        "content": "创新驱动发展战略"
+      },
+      {
+        "letter": "D",
+        "content": "“四个全面战略”"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248254",
+    "question": "实施科教兴国战略，( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "是应对新时代环境变化的必然要求"
+      },
+      {
+        "letter": "B",
+        "content": "是建设创新型国家的必然要求"
+      },
+      {
+        "letter": "C",
+        "content": "是应对国际竞争的有力举措"
+      },
+      {
+        "letter": "D",
+        "content": "是决胜全面小康社会的重大部署"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248255",
+    "question": "实施人才强国战略，( )，实施更加积极、更加开放、更加有效的人才政策。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "要坚持党管人才原则"
+      },
+      {
+        "letter": "B",
+        "content": "坚持尊重劳动、尊重知识、尊重人才、尊重创造"
+      },
+      {
+        "letter": "C",
+        "content": "完善人才战略布局"
+      },
+      {
+        "letter": "D",
+        "content": "深化人才发展体制机制改革"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248256",
+    "question": "实施创新驱动发展战略，( )，让创新成为全社会的共同行动。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "要坚持面向世界科技前沿、面向经济主战场"
+      },
+      {
+        "letter": "B",
+        "content": "要坚持面向国家重大需求、面向人民生命健康"
+      },
+      {
+        "letter": "C",
+        "content": "坚持科技创新，增强自主创新能力"
+      },
+      {
+        "letter": "D",
+        "content": "坚决打赢关键核心技术攻坚战"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248257",
+    "question": "教育优先发展，要做到( )，使我国教育越办越好。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "经济社会发展规划优先安排教育发展"
+      },
+      {
+        "letter": "B",
+        "content": "财政资金投入优先保障教育投入"
+      },
+      {
+        "letter": "C",
+        "content": "公共资源配置优先满足教育和人力资源开发需要"
+      },
+      {
+        "letter": "D",
+        "content": "推动健全优先发展教育事业的体制机制"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248258",
+    "question": "我们培养的人，( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "要坚定共产主义远大理想和中国特色社会主义共同理想"
+      },
+      {
+        "letter": "B",
+        "content": "要有高尚的道德品质，厚植爱国主义情怀"
+      },
+      {
+        "letter": "C",
+        "content": "要养成刻苦学习的习惯"
+      },
+      {
+        "letter": "D",
+        "content": "要积极投身社会实践，增长经验和技能"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248259",
+    "question": "实现高水平科技自立自强是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "应对风险挑战和维护国家利益的必然选择"
+      },
+      {
+        "letter": "B",
+        "content": "构建新发展格局的内在要求"
+      },
+      {
+        "letter": "C",
+        "content": "推动高质量发展的内在要求"
+      },
+      {
+        "letter": "D",
+        "content": "满足人民美好生活需要的内在要求"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248260",
+    "question": "( )五个环节，环环相扣，内在统一，形成全过程人民民主的完整链条，实实在在解决人民群众关心的事，为实现人民对美好生活的向往提供了有力保障。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "民主选举"
+      },
+      {
+        "letter": "B",
+        "content": "民主协商"
+      },
+      {
+        "letter": "C",
+        "content": "民主决策"
+      },
+      {
+        "letter": "D",
+        "content": "民主管理"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248261",
+    "question": "习近平指出:“中国特色社会主义是( )全面发展的社会主义。一个没有精神力量的民族难以自立自强，一项没有文化支撑的事业难以持续长久。”",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "物质文明"
+      },
+      {
+        "letter": "B",
+        "content": "精神文明"
+      },
+      {
+        "letter": "C",
+        "content": "政治文明"
+      },
+      {
+        "letter": "D",
+        "content": "生态文明"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248262",
+    "question": "要坚持中国特色社会主义文化发展道路( )，推进文化自信自强，增强实现中华民族伟大复兴的精神力量。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "发展社会主义先进文化"
+      },
+      {
+        "letter": "B",
+        "content": "弘扬革命文化"
+      },
+      {
+        "letter": "C",
+        "content": "传承中华优秀传统文化"
+      },
+      {
+        "letter": "D",
+        "content": "践行社会主义核心价值观"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248263",
+    "question": "举旗帜，就是要高举( )的旗帜，坚持不懈用习近平新时代中国特色社会主义思想武装全党、教育人民、推动工作……",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "马克思主义"
+      },
+      {
+        "letter": "B",
+        "content": "中国特色社会主义"
+      },
+      {
+        "letter": "C",
+        "content": "中国共产党"
+      },
+      {
+        "letter": "D",
+        "content": "社会主义"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248264",
+    "question": "坚持( )的根本方向，是决定社会主义文化事业前途命运的关键。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "为人民服务"
+      },
+      {
+        "letter": "B",
+        "content": "为社会主义服务"
+      },
+      {
+        "letter": "C",
+        "content": "为实现中华民族伟大复兴"
+      },
+      {
+        "letter": "D",
+        "content": "为人类社会发展"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248265",
+    "question": "坚持( )，是繁荣发展社会主义文化的重要方针。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "美美与共"
+      },
+      {
+        "letter": "B",
+        "content": "天下大同"
+      },
+      {
+        "letter": "C",
+        "content": "百花齐放"
+      },
+      {
+        "letter": "D",
+        "content": "百家争鸣"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "CD"
+  },
+  {
+    "id": "405248266",
+    "question": "要自觉把马克思主义中国化时代化最新成果贯穿研究阐释全过程，坚持以人民为中心的研究导向，自觉回答( )，在研究解决事关党和国家全局性、根本性、关键性的重大问题上拿出真本事、取得好成果，把论文写在祖国大地上。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "中国之问"
+      },
+      {
+        "letter": "B",
+        "content": "世界之问"
+      },
+      {
+        "letter": "C",
+        "content": "人民之问"
+      },
+      {
+        "letter": "D",
+        "content": "时代之问"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248267",
+    "question": "社会主义核心价值观，把涉及国家、社会、公民的价值要求融为一体，回答了我们要( )的重大问题。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "构建什么样的世界"
+      },
+      {
+        "letter": "B",
+        "content": "建设什么样的国家"
+      },
+      {
+        "letter": "C",
+        "content": "建设什么样的社会"
+      },
+      {
+        "letter": "D",
+        "content": "培育什么样的公民"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BCD"
+  },
+  {
+    "id": "405248268",
+    "question": "要坚持把马克思主义基本原理同中华优秀传统文化相结合，推动中华优秀传统文化( )，让中华文明展现出永久魅力和时代风采。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "创造性转化"
+      },
+      {
+        "letter": "B",
+        "content": "创新性发展"
+      },
+      {
+        "letter": "C",
+        "content": "创新性转化"
+      },
+      {
+        "letter": "D",
+        "content": "创造性发展"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248269",
+    "question": "对待中华优秀传统文化的态度是( ).",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "要坚持马克思主义的立场观点方法，坚持古为今用、推陈出新，有鉴别地加以对待，有扬弃地予以继承"
+      },
+      {
+        "letter": "B",
+        "content": "要坚持创造性转化，对那些仍有借鉴价值的内涵和陈旧的表现形式加以改造，赋予其新的时代内涵"
+      },
+      {
+        "letter": "C",
+        "content": "要坚持创新性发展，就是对中华优秀传统文化的内涵加以补充、拓展、完善，增强其影响力和感召力"
+      },
+      {
+        "letter": "D",
+        "content": "要反对复古主义，也要反对历史虚无主义"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248270",
+    "question": "正确把握( )的关系，是保障和改善民生的重要前提。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "民生"
+      },
+      {
+        "letter": "B",
+        "content": "经济"
+      },
+      {
+        "letter": "C",
+        "content": "发展"
+      },
+      {
+        "letter": "D",
+        "content": "社会"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AC"
+  },
+  {
+    "id": "405248271",
+    "question": "在100多年的奋斗历程中，中国共产党始终坚守( )的初心使命。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "为中国人民谋幸福"
+      },
+      {
+        "letter": "B",
+        "content": "为中国人民谋生活"
+      },
+      {
+        "letter": "C",
+        "content": "为中华民族谋未来"
+      },
+      {
+        "letter": "D",
+        "content": "为中华民族谋复兴"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AD"
+  },
+  {
+    "id": "405248272",
+    "question": "不断提高人民生活品质的重要举措有( )",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "完善分配制度"
+      },
+      {
+        "letter": "B",
+        "content": "实施就业优先战略"
+      },
+      {
+        "letter": "C",
+        "content": "健全社会保障体系"
+      },
+      {
+        "letter": "D",
+        "content": "推进健康中国建设"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248273",
+    "question": "要继续深化收入分配制度改革，进一步优化收入分配结构，构建( )协调配套的制度体系。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "初次分配"
+      },
+      {
+        "letter": "B",
+        "content": "再分配"
+      },
+      {
+        "letter": "C",
+        "content": "第三次分配"
+      },
+      {
+        "letter": "D",
+        "content": "四次分配"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248274",
+    "question": "中国特色的社会保障体系，是在( )基础上建立起来的。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持社会主义原则"
+      },
+      {
+        "letter": "B",
+        "content": "立足中国实际"
+      },
+      {
+        "letter": "C",
+        "content": "总结我国社会保障实践经验"
+      },
+      {
+        "letter": "D",
+        "content": "学习借鉴国外有益经验"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248275",
+    "question": "中国特色的社会保障体系注重发挥我国社会主义制度的政治优势，把( )作为根本出发点和落脚点，推动社会保障事业不断前进。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "促进人民至上"
+      },
+      {
+        "letter": "B",
+        "content": "增进同步富裕"
+      },
+      {
+        "letter": "C",
+        "content": "增进民生福祉"
+      },
+      {
+        "letter": "D",
+        "content": "促进社会公平"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "CD"
+  },
+  {
+    "id": "405248276",
+    "question": "党的十八大以来，我国社会治理体系不断完善，共建共治共享的社会治理制度进一步健全，社会治理( )水平大幅度提升。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "社会化"
+      },
+      {
+        "letter": "B",
+        "content": "法治化"
+      },
+      {
+        "letter": "C",
+        "content": "智能化"
+      },
+      {
+        "letter": "D",
+        "content": "专业化"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248277",
+    "question": "新时代加强和创新社会治理，要求坚持( )，探索一条符合中国社会发展实际、更可持续的中国特色社会主义社会治理之路。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "系统治理"
+      },
+      {
+        "letter": "B",
+        "content": "依法治理"
+      },
+      {
+        "letter": "C",
+        "content": "综合治理"
+      },
+      {
+        "letter": "D",
+        "content": "源头治理"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248278",
+    "question": "党的十九大报告中提出的三大攻坚战是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "防范化解重大风险"
+      },
+      {
+        "letter": "B",
+        "content": "精准脱贫"
+      },
+      {
+        "letter": "C",
+        "content": "污染防治"
+      },
+      {
+        "letter": "D",
+        "content": "从严治党"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248279",
+    "question": "健全党组织领导的城乡基层治理体系，实现( )良性互动。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "政府治理"
+      },
+      {
+        "letter": "B",
+        "content": "党委参与"
+      },
+      {
+        "letter": "C",
+        "content": "社会调节"
+      },
+      {
+        "letter": "D",
+        "content": "居民自治"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ACD"
+  },
+  {
+    "id": "405248280",
+    "question": "绿水青山是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "自然财富"
+      },
+      {
+        "letter": "B",
+        "content": "生态财富"
+      },
+      {
+        "letter": "C",
+        "content": "社会财富"
+      },
+      {
+        "letter": "D",
+        "content": "经济财富"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248281",
+    "question": "生态文明建设是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "重大的经济问题"
+      },
+      {
+        "letter": "B",
+        "content": "关系党的使命宗旨的重大政治问题"
+      },
+      {
+        "letter": "C",
+        "content": "关系民生福祉的重大社会问题"
+      },
+      {
+        "letter": "D",
+        "content": "“五位一体”总体布局之一"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248282",
+    "question": "对“绿水青山就是金山银山”的理解，正确的观点是( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "这是重要的发展理念"
+      },
+      {
+        "letter": "B",
+        "content": "也是推进现代化建设的重大原则"
+      },
+      {
+        "letter": "C",
+        "content": "阐明了经济发展与生态环境保护之间的关系"
+      },
+      {
+        "letter": "D",
+        "content": "揭示了保护生态环境就是保护生产力、改善生态环境就是发展生产力的道理"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248283",
+    "question": "生态文明建设战略地位更加凸显,表现在( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "把“生态文明建设”纳入“五位一体”总体布局"
+      },
+      {
+        "letter": "B",
+        "content": "把“坚持人与自然和谐共生”纳入新时代坚持和发展中国特色社会主义的基本方略"
+      },
+      {
+        "letter": "C",
+        "content": "把“促进人与自然和谐共生”纳入中国式现代化的本质要求"
+      },
+      {
+        "letter": "D",
+        "content": "把“美丽中国”纳入社会主义现代化强国目标;把“绿色”纳入新发展理念"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248284",
+    "question": "加快形成绿色生产方式和生活方式,要( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "加快推动产业结构、能源结构、交通运输结构等调整优化"
+      },
+      {
+        "letter": "B",
+        "content": "推进各类资源节约集约利用"
+      },
+      {
+        "letter": "C",
+        "content": "积极稳妥推进碳达峰碳中和"
+      },
+      {
+        "letter": "D",
+        "content": "健全绿色发展的保障体系"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248285",
+    "question": "生态文明制度体系更加健全,表现在( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "制定出台《中共中央国务院关于加快推进生态文明建设的意见》《生态文明体制改革总体方案》等纲领性文件"
+      },
+      {
+        "letter": "B",
+        "content": "制定数十项涉及生态文明建设的改革方案，生态文明“四梁八柱”性质的制度体系基本形成"
+      },
+      {
+        "letter": "C",
+        "content": "制定修订环境保护法、环境保护税法等30多部生态环境领域法律和行政法规"
+      },
+      {
+        "letter": "D",
+        "content": "开展中央生态环境保护督察，坚决查处破坏生态环境的重大典型案件"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248286",
+    "question": "共建清洁美丽世界，必须( )。",
+    "type": "多选题",
+    "score": "0.4",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持以人为本"
+      },
+      {
+        "letter": "B",
+        "content": "坚持多边主义"
+      },
+      {
+        "letter": "C",
+        "content": "坚持共同但有区别的责任原则"
+      },
+      {
+        "letter": "D",
+        "content": "坚持科学治理"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248287",
+    "question": "对我国推进碳达峰碳中和的理解，正确的说法是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "这是破解资源环境约束突出问题、实现可持续发展的迫切需要"
+      },
+      {
+        "letter": "B",
+        "content": "这是一场广泛而深刻的经济社会系统性变革"
+      },
+      {
+        "letter": "C",
+        "content": "实现“双碳”目标，是别人让我们这样做，不是我们自己要做"
+      },
+      {
+        "letter": "D",
+        "content": "要把“双碳”工作纳入生态文明建设整体布局和经济社会发展全局"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABDE"
+  },
+  {
+    "id": "405248288",
+    "question": "把建设美丽中国转化为全体人民自觉行动,要做到( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持用最严格制度最严密法治保护生态环境的同时，激发起全社会共同呵护生态环境的内生动力"
+      },
+      {
+        "letter": "B",
+        "content": "增强全民节约意识、环保意识、生态意识"
+      },
+      {
+        "letter": "C",
+        "content": "培育生态道德和行为准则，开展全民绿色行动"
+      },
+      {
+        "letter": "D",
+        "content": "动员全社会都以实际行动减少能源资源消耗和污染排放"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248289",
+    "question": "保护生态环境必须依靠制度、依靠法治,要做到( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "构建产权清晰、多元参与、激励约束并重、系统完整的生态文明制度体系"
+      },
+      {
+        "letter": "B",
+        "content": "实行最严格的生态环境保护制度"
+      },
+      {
+        "letter": "C",
+        "content": "全面建立资源高效利用制度"
+      },
+      {
+        "letter": "D",
+        "content": "严明生态环境保护责任制度"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248290",
+    "question": "对共同但有区别的责任原则的理解，正确的说法是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "必须充分考虑历史责任、各国国情和生态治理能力"
+      },
+      {
+        "letter": "B",
+        "content": "坚持各尽所能、国家自主决定贡献的制度安排"
+      },
+      {
+        "letter": "C",
+        "content": "必须充分肯定发展中国家应对气候变化所作的贡献，照顾其特殊困难和关切"
+      },
+      {
+        "letter": "D",
+        "content": "发达国家应该主动承担历史责任，为发展中国家提供资金、技术、能力建设等方面支持。"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248291",
+    "question": "推动全球可持续发展,我国必须( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "积极参与全球气候治理"
+      },
+      {
+        "letter": "B",
+        "content": "积极推进全球生物多样性治理"
+      },
+      {
+        "letter": "C",
+        "content": "积极打造绿色“一带一路”"
+      },
+      {
+        "letter": "D",
+        "content": "积极落实联合国生态系统恢复十年行动计划，实施生物多样性保护修复重大工程"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248292",
+    "question": "在整个发展过程中，我们都要坚持( )的方针，要像保护眼睛一样保护生态环境",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "节约优先"
+      },
+      {
+        "letter": "B",
+        "content": "发展为主"
+      },
+      {
+        "letter": "C",
+        "content": "保护优先"
+      },
+      {
+        "letter": "D",
+        "content": "自然恢复为主"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ACD"
+  },
+  {
+    "id": "405248293",
+    "question": "绿水青山就是金山银山，阐述了( )的关系。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "社会和谐"
+      },
+      {
+        "letter": "B",
+        "content": "经济发展"
+      },
+      {
+        "letter": "C",
+        "content": "生态环境保护"
+      },
+      {
+        "letter": "D",
+        "content": "人类生存"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BC"
+  },
+  {
+    "id": "405248294",
+    "question": "实现( )是我国向世界作出的庄严承诺，也是一场广泛而深刻的经济社会变革，绝不是轻轻松松就能实现的。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "碳达峰"
+      },
+      {
+        "letter": "B",
+        "content": "碳中和"
+      },
+      {
+        "letter": "C",
+        "content": "建设美丽世界"
+      },
+      {
+        "letter": "D",
+        "content": "构建人与自然的生命共同体"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248295",
+    "question": "针对国际金融危机后世界经济低迷，我国经济下行压力加大，提出我国发展正处于( )“三期叠加”阶段，进入新常态。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "增长速度换挡期"
+      },
+      {
+        "letter": "B",
+        "content": "结构调整阵痛期"
+      },
+      {
+        "letter": "C",
+        "content": "前期刺激政策消化期"
+      },
+      {
+        "letter": "D",
+        "content": "重要战略机遇期"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248296",
+    "question": "新发展阶段是( )",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "我国社会主义初级阶段历史进程中的一个重要阶段"
+      },
+      {
+        "letter": "B",
+        "content": "中国共产党带领人民迎来从站起来、富起来到强起来历史性跨越的新阶段"
+      },
+      {
+        "letter": "C",
+        "content": "全面建成小康社会、实现第一个百年奋斗目标的重要阶段"
+      },
+      {
+        "letter": "D",
+        "content": "全面建设社会主义现代化国家、向第二个百年奋斗目标进军的重要阶段"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABD"
+  },
+  {
+    "id": "405248297",
+    "question": "高质量发展关系我国社会主义现代化建设全局，具有重大战略意义，包括( )",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "高质量发展为全面建设社会主义现代化国家提供更为坚实的物质基础"
+      },
+      {
+        "letter": "B",
+        "content": "高质量发展是不断满足人民对美好生活需要的重要保证"
+      },
+      {
+        "letter": "C",
+        "content": "高质量发展是维护国家长治久安的必然要求"
+      },
+      {
+        "letter": "D",
+        "content": "高质量发展是全面建成小康社会的必由之路"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248298",
+    "question": "构建高水平社会主义市场经济体制，关键是处理好( )的关系。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "政府"
+      },
+      {
+        "letter": "B",
+        "content": "市场"
+      },
+      {
+        "letter": "C",
+        "content": "人民"
+      },
+      {
+        "letter": "D",
+        "content": "发展"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AB"
+  },
+  {
+    "id": "405248299",
+    "question": "坚持“两个毫不动摇”是指( )",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "毫不动摇巩固和发展公有制经济"
+      },
+      {
+        "letter": "B",
+        "content": "毫不动摇坚持按劳分配为主体、多种分配方式并存"
+      },
+      {
+        "letter": "C",
+        "content": "毫不动摇坚持社会主义市场经济体制"
+      },
+      {
+        "letter": "D",
+        "content": "毫不动摇鼓励、支持、引导非公有制经济发展"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "AD"
+  },
+  {
+    "id": "405248300",
+    "question": "我们要加快构建( )的新发展格局。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "以国际大循环为主体"
+      },
+      {
+        "letter": "B",
+        "content": "以国内大循环为主体"
+      },
+      {
+        "letter": "C",
+        "content": "国内国际双循环相互促进"
+      },
+      {
+        "letter": "D",
+        "content": "国内国际双循环独立运行"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "BC"
+  },
+  {
+    "id": "405248301",
+    "question": "毫不动摇巩固和发展公有制经济就是要支持国有资本和国有企业( )",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "做强"
+      },
+      {
+        "letter": "B",
+        "content": "做优"
+      },
+      {
+        "letter": "C",
+        "content": "做大"
+      },
+      {
+        "letter": "D",
+        "content": "上市"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248302",
+    "question": "要推进供给侧性改革为经济发展的主线，坚持( )的八字方针。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "巩固"
+      },
+      {
+        "letter": "B",
+        "content": "增强"
+      },
+      {
+        "letter": "C",
+        "content": "提升"
+      },
+      {
+        "letter": "D",
+        "content": "畅通"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248303",
+    "question": "实施乡村振兴战略，农业现代化是总目标，坚持农业农村优先发展是总方针，( )是总要求。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "产业兴旺"
+      },
+      {
+        "letter": "B",
+        "content": "生态宜居"
+      },
+      {
+        "letter": "C",
+        "content": "乡风文明"
+      },
+      {
+        "letter": "D",
+        "content": "治理有效"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248304",
+    "question": "进入新时代，我国面临更为严峻复杂的国家安全形势，从外部环境来看，主要是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "世界战略格局、全球治理体系、综合国力竞争进入深度变迁的历史进程"
+      },
+      {
+        "letter": "B",
+        "content": "气候变化、粮食安全、能源安全等全球性问题日趋尖锐复杂"
+      },
+      {
+        "letter": "C",
+        "content": "地区热点和局部冲突此起彼伏，国际局势变得更加复杂动荡"
+      },
+      {
+        "letter": "D",
+        "content": "和平与发展的时代主题面临严峻挑战"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248305",
+    "question": "进入新时代，我国面临更为严峻复杂的国家安全形势，从内部环境来看，主要是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "重点领域关键环节改革任务仍然艰巨，科技创新能力存在卡点瓶颈"
+      },
+      {
+        "letter": "B",
+        "content": "粮食、能源、资源、金融和产业链供应链安全面临重大考验"
+      },
+      {
+        "letter": "C",
+        "content": "意识形态领域存在不少挑战，重点领域风险敞口加大"
+      },
+      {
+        "letter": "D",
+        "content": "风险呈现形态更加复杂，既有显性风险又有隐性风险"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248306",
+    "question": "当前我国所面临的新形势新挑战是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "正处于中华民族伟大复兴的关键时期"
+      },
+      {
+        "letter": "B",
+        "content": "处于从发展中大国迈向社会主义现代化强国的关键阶段"
+      },
+      {
+        "letter": "C",
+        "content": "中国式现代化向前推进拓展"
+      },
+      {
+        "letter": "D",
+        "content": "一些敌视中国共产党领导和我国社会主义制度的势力处心积虑地破坏，我们面临的压力和阻力越大"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248307",
+    "question": "对发展和安全的理解，正确的观点是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "发展解决的是动力问题，是推动国家和民族康续绵延的根本支撑"
+      },
+      {
+        "letter": "B",
+        "content": "安全解决的是保障问题，是确保国家和民族行稳致远的坚强柱石"
+      },
+      {
+        "letter": "C",
+        "content": "发展具有基础性、根本性，是解决安全问题的总钥匙"
+      },
+      {
+        "letter": "D",
+        "content": "没有国家安全,发展取得的成果也可能毁于一旦"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248308",
+    "question": "对新安全格局和新发展格局关系的正确理解是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "新安全格局是新发展格局的重要前提和保障。"
+      },
+      {
+        "letter": "B",
+        "content": "只有以新安全格局保障新发展格局，才能夯实我国经济发展的根基、增强发展的安全性稳定性"
+      },
+      {
+        "letter": "C",
+        "content": "只有以新安全格局保障新发展格局，才能在各种可以预见和难以预见的风险挑战中增强我国的生存力、竞争力、发展力、持续力"
+      },
+      {
+        "letter": "D",
+        "content": "以新安全格局保障新发展格局，必须统筹维护国家安全各类要素、各方资源、各种手段，主动塑造有利的外部安全环境"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248309",
+    "question": "政治安全涉及国家( )的稳固，是一个国家最根本的需求。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "主权"
+      },
+      {
+        "letter": "B",
+        "content": "政权"
+      },
+      {
+        "letter": "C",
+        "content": "制度"
+      },
+      {
+        "letter": "D",
+        "content": "意识形态"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248310",
+    "question": "维护政治安全，要( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "维护政权安全"
+      },
+      {
+        "letter": "B",
+        "content": "维护制度安全"
+      },
+      {
+        "letter": "C",
+        "content": "维护意识形态安全"
+      },
+      {
+        "letter": "D",
+        "content": "维护中国共产党执政安全"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248311",
+    "question": "国土安全是立国之基，维护国土安全，要( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "提升维护国土安全能力，加强边防、海防、空防建设"
+      },
+      {
+        "letter": "B",
+        "content": "坚决反对一切分裂祖国的活动"
+      },
+      {
+        "letter": "C",
+        "content": "深入打击恐怖主义、分裂主义、极端主义“三股势力”"
+      },
+      {
+        "letter": "D",
+        "content": "坚决防范“藏独”“东突”，坚决粉碎任何“台独”分裂图谋"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248312",
+    "question": "健全国家安全体系，要( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持党中央对国家安全工作的集中统一领导，完善高效权威的国家安全领导体制"
+      },
+      {
+        "letter": "B",
+        "content": "强化国家安全工作协调机制"
+      },
+      {
+        "letter": "C",
+        "content": "完善国家安全法治体系、战略体系、政策体系、风险监测预警体系、国家应急管理体系"
+      },
+      {
+        "letter": "D",
+        "content": "完善重点领域安全保障体系和重要专项协调指挥体系"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248313",
+    "question": "建设平安中国，必须( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "聚焦影响国家安全和社会稳定的突出问题"
+      },
+      {
+        "letter": "B",
+        "content": "坚持安全第一、预防为主，建立大安全大应急框架"
+      },
+      {
+        "letter": "C",
+        "content": "推动公共安全治理模式由以事后处置为主向以事前预防为主转型"
+      },
+      {
+        "letter": "D",
+        "content": "推进安全生产风险专项整治，加强重点行业、重点领域安全监管。"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248314",
+    "question": "提高防范化解重大风险能力,要( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持底线思维和极限思维,从最坏处着眼，做最充分的准备"
+      },
+      {
+        "letter": "B",
+        "content": "既要有防范风险的先手，也要有应对和化解风险挑战的高招"
+      },
+      {
+        "letter": "C",
+        "content": "既要打好防范和抵御风险的有准备之战，也要打好化险为夷、转危为机的战略主动战"
+      },
+      {
+        "letter": "D",
+        "content": "既要高度警惕“黑天鹅”事件，也要防范“灰犀牛”事件"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248315",
+    "question": "推进强军事业必须坚持( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "政治建军"
+      },
+      {
+        "letter": "B",
+        "content": "改革强军"
+      },
+      {
+        "letter": "C",
+        "content": "科技强军"
+      },
+      {
+        "letter": "D",
+        "content": "人才强军"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248316",
+    "question": "新时代人民军队使命任务是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "为巩固中国共产党领导和我国社会主义制度提供战略支撑"
+      },
+      {
+        "letter": "B",
+        "content": "为捍卫国家主权、统一和领土完整提供战略支撑"
+      },
+      {
+        "letter": "C",
+        "content": "为维护我国海外利益提供战略支撑"
+      },
+      {
+        "letter": "D",
+        "content": "为促进世界和平与发展提供战略支撑"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248317",
+    "question": "进入新时代，我国军队建设存在的问题是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "军队现代化水平与国家安全需求相比差距还很大"
+      },
+      {
+        "letter": "B",
+        "content": "军队现代化水平与世界先进军事水平相比差距还很大"
+      },
+      {
+        "letter": "C",
+        "content": "军队打现代化战争能力不够"
+      },
+      {
+        "letter": "D",
+        "content": "各级干部指挥现代化战争能力不够"
+      }
+    ],
+    "my_answer": "ABCD",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248318",
+    "question": "党在新时代强军目标的科学内涵是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "听党指挥是灵魂，决定军队建设的政治方向"
+      },
+      {
+        "letter": "B",
+        "content": "能打胜仗是核心，反映军队的根本职能和军队建设的根本指向"
+      },
+      {
+        "letter": "C",
+        "content": "作风优良是保证，关系军队的性质、宗旨、本色"
+      },
+      {
+        "letter": "D",
+        "content": "体现了坚持党的建军原则、人民军队根本职能、特有政治优势的高度统一"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248319",
+    "question": "党在新时代的强军目标是建设一支( )的人民军队。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "听党指挥"
+      },
+      {
+        "letter": "B",
+        "content": "能打胜仗"
+      },
+      {
+        "letter": "C",
+        "content": "作风优良"
+      },
+      {
+        "letter": "D",
+        "content": "敢于创新"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248320",
+    "question": "我国国防和军队建设“新三步走” 战略安排是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "到2027年，实现建军一百年奋斗目标"
+      },
+      {
+        "letter": "B",
+        "content": "到2035年，基本实现国防和军队现代化"
+      },
+      {
+        "letter": "C",
+        "content": "到本世纪中叶，把人民军队全面建成世界一流军队"
+      },
+      {
+        "letter": "D",
+        "content": "到2050年，全面实现军事作战无人化、智能化"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248321",
+    "question": "到2035年，基本实现国防和军队现代化，这一步的关键是实现( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "军事理论现代化"
+      },
+      {
+        "letter": "B",
+        "content": "军队组织形态现代化"
+      },
+      {
+        "letter": "C",
+        "content": "军事人员现代化"
+      },
+      {
+        "letter": "D",
+        "content": "武器装备现代化"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248322",
+    "question": "到本世纪中叶,把人民军队全面建成世界一流军队,具体的目标要求是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "建成同我国强国地位相称的世界一流军队"
+      },
+      {
+        "letter": "B",
+        "content": "建成能够全面有效维护国家安全的世界一流军队"
+      },
+      {
+        "letter": "C",
+        "content": "建成具备强大国际影响力的世界一流军队"
+      },
+      {
+        "letter": "D",
+        "content": "能够打败一切强敌的世界一流军队"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248323",
+    "question": "坚持党对人民军队的绝对领导必须有一整套制度作保证。这些制度主要有( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "军队最高领导权和指挥权属于党中央、中央军委，中央军委实行主席负责制"
+      },
+      {
+        "letter": "B",
+        "content": "实行党委制、政治委员制、政治机关制"
+      },
+      {
+        "letter": "C",
+        "content": "实行党委(支部)统一的集体领导下的首长分工负责制"
+      },
+      {
+        "letter": "D",
+        "content": "实行支部建在连上"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248324",
+    "question": "新的征程上，开创国防和军队现代化新局面，必须全面推进( ), 加快把人民军队建设成为世界一流军队。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "政治建军"
+      },
+      {
+        "letter": "B",
+        "content": "改革强军"
+      },
+      {
+        "letter": "C",
+        "content": "科技强军"
+      },
+      {
+        "letter": "D",
+        "content": "人才强军"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248325",
+    "question": "要着力培养新时代革命军人，锻造具有( )的过硬部队，确保我军永远立于不败之地。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "铁一般信仰"
+      },
+      {
+        "letter": "B",
+        "content": "铁一般信念"
+      },
+      {
+        "letter": "C",
+        "content": "铁一般纪律"
+      },
+      {
+        "letter": "D",
+        "content": "铁一般担当"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248326",
+    "question": "深化国防和军队改革，要( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "按照军委管总、战区主战、军种主建的总原则改革领导指挥体制"
+      },
+      {
+        "letter": "B",
+        "content": "推进军队规模结构和力量编成改革，构建中国特色现代军事力量体系"
+      },
+      {
+        "letter": "C",
+        "content": "深化军队党的建设制度改革、创新军事力量运用政策制度"
+      },
+      {
+        "letter": "D",
+        "content": "重塑军事力量建设政策制度、改革军事管理政策制度"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248327",
+    "question": "贯彻依法治军战略，要紧紧围绕党在新时代的强军目标,着眼全面加强革命化现代化正规化建设，坚持( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "党对人民军队的绝对领导"
+      },
+      {
+        "letter": "B",
+        "content": "建设中国特色军事法治体系"
+      },
+      {
+        "letter": "C",
+        "content": "从严治军铁律"
+      },
+      {
+        "letter": "D",
+        "content": "抓住领导干部这个“关键少数”"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248328",
+    "question": "提高军队战斗力，要( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "强化战斗队思想，立起练兵备战鲜明导向"
+      },
+      {
+        "letter": "B",
+        "content": "做到全部精力向打仗聚焦"
+      },
+      {
+        "letter": "C",
+        "content": "坚决破除“和平积弊”，把战斗力标准贯彻到全军各项建设中"
+      },
+      {
+        "letter": "D",
+        "content": "坚持用是否有利于提高战斗力来衡量和检验各项工作"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248329",
+    "question": "对“强国必须强军，军强才能国安”的正确理解是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "国无防不立，民无兵不安。没有一支强大的军队，就不可能有强大的祖国"
+      },
+      {
+        "letter": "B",
+        "content": "中国越发展壮大，遇到的阻力和压力就会越大，面临的风险就会越多"
+      },
+      {
+        "letter": "C",
+        "content": "面对严峻复杂的国家安全形势，必须对战争危险保持清醒头脑。"
+      },
+      {
+        "letter": "D",
+        "content": "能战方能止战，要实现中华民族伟大复兴，就必须把军队搞得更强大"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248330",
+    "question": "坚持以( )为基础走和平发展道路。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "不冲突不对抗"
+      },
+      {
+        "letter": "B",
+        "content": "相互尊重"
+      },
+      {
+        "letter": "C",
+        "content": "人文交流"
+      },
+      {
+        "letter": "D",
+        "content": "合作共赢"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "BD"
+  },
+  {
+    "id": "405248331",
+    "question": "运筹好大国关系，推动构建总体稳定、均衡发展的大国关系框架至关重要。大国之间相处，要( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "不冲突"
+      },
+      {
+        "letter": "B",
+        "content": "不对抗"
+      },
+      {
+        "letter": "C",
+        "content": "相互尊重"
+      },
+      {
+        "letter": "D",
+        "content": "合作共赢"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248332",
+    "question": "和平与发展仍然是当今时代主题，( )成为不可阻挡的时代潮流。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "和平"
+      },
+      {
+        "letter": "B",
+        "content": "发展"
+      },
+      {
+        "letter": "C",
+        "content": "合作"
+      },
+      {
+        "letter": "D",
+        "content": "共赢"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248333",
+    "question": "当今世界正经历百年未有之大变局，具体表现在( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "世界多极化、经济全球化、社会信息化、文化多样化深入发展"
+      },
+      {
+        "letter": "B",
+        "content": "世界面临的不稳定性不确定性突出，全球性问题加剧"
+      },
+      {
+        "letter": "C",
+        "content": "国际力量对比深刻变化"
+      },
+      {
+        "letter": "D",
+        "content": "新一轮科技革命和产业变革深入发展"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248334",
+    "question": "中国走和平发展道路的自信和自觉( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "来源于中华文明的深厚渊源"
+      },
+      {
+        "letter": "B",
+        "content": "来源于对现实中国发展目标条件的认知"
+      },
+      {
+        "letter": "C",
+        "content": "来源于对世界发展大势的把握"
+      },
+      {
+        "letter": "D",
+        "content": "来源于和平发展的大局"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248335",
+    "question": "中国特色大国外交建立在正确的( )基础之上。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "历史观"
+      },
+      {
+        "letter": "B",
+        "content": "大局观"
+      },
+      {
+        "letter": "C",
+        "content": "角色观"
+      },
+      {
+        "letter": "D",
+        "content": "国际形势"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248336",
+    "question": "中国特色大国外交要坚持的原则要求是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持和加强党对对外工作的集中统一领导"
+      },
+      {
+        "letter": "B",
+        "content": "坚持以中国特色社会主义为根本，增强战略自信"
+      },
+      {
+        "letter": "C",
+        "content": "坚持以相互尊重、合作共赢为基础，走和平发展道路"
+      },
+      {
+        "letter": "D",
+        "content": "坚持以公平正义为理念引领全球治理体系改革"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248337",
+    "question": "中国特色大国外交的独特风范表现在( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持马克思主义立场观点方法,从中华优秀传统文化中汲取智慧"
+      },
+      {
+        "letter": "B",
+        "content": "坚持爱国主义同国际主义相结合"
+      },
+      {
+        "letter": "C",
+        "content": "倡导不同社会制度和发展道路相互包容"
+      },
+      {
+        "letter": "D",
+        "content": "坚持诚信为本，始终恪守政治承诺"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248338",
+    "question": "我国走和平发展道路，是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "对国际社会关注中国发展走向的回应"
+      },
+      {
+        "letter": "B",
+        "content": "中国人民对实现自身发展目标的自信和自觉"
+      },
+      {
+        "letter": "C",
+        "content": "由中国共产党性质宗旨和我国社会主义制度决定的"
+      },
+      {
+        "letter": "D",
+        "content": "基于中国历史文化传统作出的必然选择"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248339",
+    "question": "我国独立自主的和平外交政策的内容包括( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "中国始终根据事情本身的是非曲直决定自己的立场和政策"
+      },
+      {
+        "letter": "B",
+        "content": "中国尊重各国主权和领土完整，尊重各国人民选择的发展道路和社会制度"
+      },
+      {
+        "letter": "C",
+        "content": "坚决反对一切形式的範权主义和强权政治"
+      },
+      {
+        "letter": "D",
+        "content": "反对冷战思维，反对干涉别国内政，反对搞双重标准"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248340",
+    "question": "新型国际关系的内容是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "相互尊重"
+      },
+      {
+        "letter": "B",
+        "content": "公平正义"
+      },
+      {
+        "letter": "C",
+        "content": "合作共赢"
+      },
+      {
+        "letter": "D",
+        "content": "和平共处"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248341",
+    "question": "积极推动中美关系稳定发展，同俄罗斯发展全面战略协作伙伴关系，同欧洲发展( )伙伴关系。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "和平"
+      },
+      {
+        "letter": "B",
+        "content": "增长"
+      },
+      {
+        "letter": "C",
+        "content": "改革"
+      },
+      {
+        "letter": "D",
+        "content": "文明"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248342",
+    "question": "构建人类命运共同体，其核心就是建设持久和平、( )的世界。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "清洁美丽"
+      },
+      {
+        "letter": "B",
+        "content": "普遍安全"
+      },
+      {
+        "letter": "C",
+        "content": "共同繁荣"
+      },
+      {
+        "letter": "D",
+        "content": "开放包容"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248343",
+    "question": "对构建人类命运共同体是世界各国人民前途所在的正确理解是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "构建人类命运共同体是我们党审视当今世界发展趋势、针对当今世界面临的重大问题提出的重要理念"
+      },
+      {
+        "letter": "B",
+        "content": "各国相互联系更紧密，和平、发展、合作、共赢的历史潮流不可阻挡"
+      },
+      {
+        "letter": "C",
+        "content": "全球发展深层次矛盾突出，恃强凌弱、零和博弈等霸凌行径危害深重"
+      },
+      {
+        "letter": "D",
+        "content": "和平赤字、发展赤字、安全赤字、治理赤字加重"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248344",
+    "question": "对推进全球治理体系改革和建设的正确理解是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "这是构建人类命运共同体的内在要求"
+      },
+      {
+        "letter": "B",
+        "content": "要秉持共商共建共享的全球治理观"
+      },
+      {
+        "letter": "C",
+        "content": "要推动全球治理体系朝着更加公正合理的方向发展"
+      },
+      {
+        "letter": "D",
+        "content": "要奉行双赢、多赢、共赢的新理念，摒弃冷战思维、零和博弈的旧理念"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248345",
+    "question": "对共建“一带一路”的正确理解是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "共建“一带一路”是推动构建人类命运共同体的实践平台"
+      },
+      {
+        "letter": "B",
+        "content": "“一带一路”倡议根植历史、更面向未来，源于中国、更属于世界"
+      },
+      {
+        "letter": "C",
+        "content": "共建“一带一路”追求的是发展，崇尚的是共赢，传递的是希望"
+      },
+      {
+        "letter": "D",
+        "content": "共建“一带一路”是造福沿线各国人民的大事业"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248346",
+    "question": "坚持真正的多边主义，完善全球治理体系,要( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持协商合作，不搞冲突对抗"
+      },
+      {
+        "letter": "B",
+        "content": "坚持以联合国宪章宗旨和原则为基础的国际关系基本准则，反对搞意识形态划线"
+      },
+      {
+        "letter": "C",
+        "content": "推动共同发展，维护世界和平稳定"
+      },
+      {
+        "letter": "D",
+        "content": "反对搞针对特定国家的阵营化和排他性小圈子"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248347",
+    "question": "习近平关于党的建设的重要思想，包括( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持和加强党的全面领导;坚持以党的自我革命引领社会革命"
+      },
+      {
+        "letter": "B",
+        "content": "坚持以党的政治建设统领党的建设各项工作;坚持江山就是人民、人民就是江山"
+      },
+      {
+        "letter": "C",
+        "content": "坚持思想建党、理论强党;坚持严密党的组织体系"
+      },
+      {
+        "letter": "D",
+        "content": "坚持造就忠诚干净担当的高素质干部队伍;坚持聚天下英才而用之"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248348",
+    "question": "新形势下党执政面临的“四大考验”包括长期执政考验、( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "改革开放考验"
+      },
+      {
+        "letter": "B",
+        "content": "市场经济考验"
+      },
+      {
+        "letter": "C",
+        "content": "外部环境考验"
+      },
+      {
+        "letter": "D",
+        "content": "管党治党考验"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248349",
+    "question": "新形势下党执政面临的“四大危险”包括精神懈怠危险、( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "能力不足危险"
+      },
+      {
+        "letter": "B",
+        "content": "脱离群众危险"
+      },
+      {
+        "letter": "C",
+        "content": "消极腐败危险"
+      },
+      {
+        "letter": "D",
+        "content": "动力不足考验"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248350",
+    "question": "加强党的自身建设是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "把党锻造成为坚强有力的马克思主义执政党的迫切需要"
+      },
+      {
+        "letter": "B",
+        "content": "新形势下推进伟大事业的必然要求"
+      },
+      {
+        "letter": "C",
+        "content": "新形势下推进进行伟大斗争的必然要求"
+      },
+      {
+        "letter": "D",
+        "content": "新形势下推进实现伟大梦想的必然要求"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248351",
+    "question": "全面从严治党，关键在严，“关键在严”，就是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持严字当头，把严的要求贯穿党的建设全过程"
+      },
+      {
+        "letter": "B",
+        "content": "做到真管真严、敢管敢严、长管长严"
+      },
+      {
+        "letter": "C",
+        "content": "敢于动真格，不降标准，不图形式，不走过场"
+      },
+      {
+        "letter": "D",
+        "content": "让一切违纪违规的言行无处遁形"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248352",
+    "question": "全面从严治党，“要害在治”，就是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "要真正解决问题、切实担起责任"
+      },
+      {
+        "letter": "B",
+        "content": "从党中央到地方各级党委都要担负起主体责任"
+      },
+      {
+        "letter": "C",
+        "content": "各级纪委要担负起监督责任"
+      },
+      {
+        "letter": "D",
+        "content": "敢于瞪眼黑脸，勇于执纪问责"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248353",
+    "question": "全面从严治党是一项管党治党的系统工程，要( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持内容上全涵盖，党的建设推进到哪里，全面从严治党体系就要构建到哪里"
+      },
+      {
+        "letter": "B",
+        "content": "坚持对象上全覆盖，面向党的各级组织和全体党员"
+      },
+      {
+        "letter": "C",
+        "content": "坚持责任上全链条,让每名党员、干部行使应有权利、履行应尽责任"
+      },
+      {
+        "letter": "D",
+        "content": "坚持制度上全贯通，把制度建设要求体现到全面从严治党全过程"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248354",
+    "question": "新时代党的建设总要求,包括( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持和加强党的全面领导，坚持党要管党、全面从严治党"
+      },
+      {
+        "letter": "B",
+        "content": "以加强党的长期执政能力建设、先进性和纯洁性建设为主线"
+      },
+      {
+        "letter": "C",
+        "content": "以党的政治建设为统领，以坚定理想信念宗旨为根基，全面推进党的各项建设"
+      },
+      {
+        "letter": "D",
+        "content": "把制度建设贯穿其中，深入推进反腐败斗争"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248355",
+    "question": "加强作风建设，必须( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "紧紧围绕保持党同人民群众的血肉联系，增强群众观念和群众感情"
+      },
+      {
+        "letter": "B",
+        "content": "要锲而不舍落实中央八项规定精神，持续深化纠治“四风”"
+      },
+      {
+        "letter": "C",
+        "content": "要弘扬党的光荣传统和优良作风"
+      },
+      {
+        "letter": "D",
+        "content": "促进党员干部特别是领导干部带头深入调查研究"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248356",
+    "question": "之所以要把党的政治建设摆在首位，是因为( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "旗帜鲜明讲政治是我们党作为马克思主义政党的根本要求"
+      },
+      {
+        "letter": "B",
+        "content": "如果马克思主义政党政治上的先进性丧失了，党的先进性和纯洁性就无从谈起"
+      },
+      {
+        "letter": "C",
+        "content": "党的政治建设决定党的建设方向和效果"
+      },
+      {
+        "letter": "D",
+        "content": "只有党的政治建设抓好了，党的建设才能夯基固本"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248357",
+    "question": "党的二十大报告指出，中国共产党立志于中华民族千秋伟业，致力于人类和平与发展崇高事业，全党同志要始终牢记“三个务必”，这“三个务必”是( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "务必不忘初心、牢记使命"
+      },
+      {
+        "letter": "B",
+        "content": "务必谦虚谨慎、艰苦奋斗"
+      },
+      {
+        "letter": "C",
+        "content": "务必贯彻好群众路线"
+      },
+      {
+        "letter": "D",
+        "content": "务必敢于斗争、善于斗争"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABD"
+  },
+  {
+    "id": "405248358",
+    "question": "党的十八大以来，我们坚持党要管党、全面从严治党，坚持问题导向，以整治“四风”为突破口，“四风”包括:形式主义、( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "官僚主义"
+      },
+      {
+        "letter": "B",
+        "content": "享乐主义"
+      },
+      {
+        "letter": "C",
+        "content": "奢靡之风"
+      },
+      {
+        "letter": "D",
+        "content": "利己主义"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABC"
+  },
+  {
+    "id": "405248359",
+    "question": "我们要落实新时代党的建设总要求，健全全面从严治党体系，全面推进党的( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "自我净化"
+      },
+      {
+        "letter": "B",
+        "content": "自我完善"
+      },
+      {
+        "letter": "C",
+        "content": "自我革新"
+      },
+      {
+        "letter": "D",
+        "content": "自我提高"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCD"
+  },
+  {
+    "id": "405248360",
+    "question": "坚决打赢反腐败斗争攻坚战持久战，必须清醒认识到，腐败和反腐败较量还在激烈进行，必须( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "坚持以零容忍态度反腐惩恶不动摇"
+      },
+      {
+        "letter": "B",
+        "content": "要坚决惩治不收敛不收手、胆大妄为者"
+      },
+      {
+        "letter": "C",
+        "content": "坚决查处政治问题和经济问题交织的腐败"
+      },
+      {
+        "letter": "D",
+        "content": "坚决防止领导干部成为利益集团和权势团体的代言人、代理人"
+      }
+    ],
+    "my_answer": "",
+    "right_answer": "ABCDE"
+  },
+  {
+    "id": "405248361",
+    "question": "党的十八大以来，以习近平同志为核心的党中央坚持以雷霆之势惩治腐败，走出一条依靠制度优势、法治优势反腐败之路，具体表现在( )。",
+    "type": "多选题",
+    "score": "0.5",
+    "options": [
+      {
+        "letter": "A",
+        "content": "构建起党全面领导的反腐败工作格局"
+      },
+      {
+        "letter": "B",
+        "content": "“打虎”“拍蝇”“猎狐”多管齐下"
+      },
+      {
+        "letter": "C",
+        "content": "把权力关进制度的笼子里"
+      },
+      {
+        "letter": "D",
+        "content": "坚持不敢腐、不能腐、不想腐一体推进"
+      }
+    ],
+    "my_answer": "ABCDE",
+    "right_answer": "ABCD"
+  }
+]
