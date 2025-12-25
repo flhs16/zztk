@@ -116,45 +116,10 @@ class App {
 
     async loadDefaultQuestions() {
         try {
-            const [singleChoiceResponse, multipleChoiceResponse, trueFalseResponse] = await Promise.all([
-                fetch('single_choice.json'),
-                fetch('multiple_choice.json'),
-                fetch('true_false.json')
-            ]);
-
-            const singleChoiceData = await singleChoiceResponse.json();
-            const multipleChoiceData = await multipleChoiceResponse.json();
+            const trueFalseResponse = await fetch('true_false.json');
             const trueFalseData = await trueFalseResponse.json();
 
             const allQuestions = [];
-
-            singleChoiceData.questions.forEach((q, index) => {
-                allQuestions.push({
-                    id: `single_${index}`,
-                    question: q.question,
-                    type: '单选题',
-                    options: q.options.map((opt, i) => ({
-                        letter: String.fromCharCode(65 + i),
-                        content: opt
-                    })),
-                    right_answer: q.answer,
-                    score: 1
-                });
-            });
-
-            multipleChoiceData.questions.forEach((q, index) => {
-                allQuestions.push({
-                    id: `multiple_${index}`,
-                    question: q.question,
-                    type: '多选题',
-                    options: q.options.map((opt, i) => ({
-                        letter: String.fromCharCode(65 + i),
-                        content: opt
-                    })),
-                    right_answer: q.answer,
-                    score: 2
-                });
-            });
 
             trueFalseData.questions.forEach((q, index) => {
                 allQuestions.push({
