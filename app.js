@@ -114,73 +114,69 @@ class App {
         this.loadDefaultQuestions();
     }
 
-    loadDefaultQuestions() {
-        const defaultQuestions = [
-            {
-                id: "1",
-                question: "社会主义政治发展的必然要求是坚持( )的有机统一。",
-                type: "多选题",
-                options: [
-                    {letter: "A", content: "党的领导"},
-                    {letter: "B", content: "人民当家作主"},
-                    {letter: "C", content: "依法治国"},
-                    {letter: "D", content: "人民民主专政"}
-                ],
-                right_answer: "ABC"
-            },
-            {
-                id: "2",
-                question: "全面深化改革的总目标是( )。",
-                type: "多选题",
-                options: [
-                    {letter: "A", content: "完善和发展中国特色社会主义制度"},
-                    {letter: "B", content: "推进国家治理体系和治理能力现代化"},
-                    {letter: "C", content: "全面建成小康社会"},
-                    {letter: "D", content: "完善社会保障制度"}
-                ],
-                right_answer: "AB"
-            },
-            {
-                id: "3",
-                question: "五四运动以来我国发生的三大历史性事件?( )",
-                type: "多选题",
-                options: [
-                    {letter: "A", content: "建立中国共产党"},
-                    {letter: "B", content: "成立中华人民共和国"},
-                    {letter: "C", content: "推进改革开放和中国特色社会主义事业"},
-                    {letter: "D", content: "全面深化改革"}
-                ],
-                right_answer: "ABC"
-            },
-            {
-                id: "4",
-                question: "我们未来要重点解决的民生问题包括( )等方面。",
-                type: "多选题",
-                options: [
-                    {letter: "A", content: "教育"},
-                    {letter: "B", content: "医疗"},
-                    {letter: "C", content: "养老"},
-                    {letter: "D", content: "住房"}
-                ],
-                right_answer: "ABCD"
-            },
-            {
-                id: "5",
-                question: "要发挥分配的功能和作用。要处理好效率和公平关系，构建( )协调配套的基础性制度安排。",
-                type: "多选题",
-                options: [
-                    {letter: "A", content: "初次分配"},
-                    {letter: "B", content: "再分配"},
-                    {letter: "C", content: "三次分配"},
-                    {letter: "D", content: "四次分配"}
-                ],
-                right_answer: "ABC"
-            }
-        ];
+    async loadDefaultQuestions() {
+        try {
+            const [singleChoiceResponse, multipleChoiceResponse, trueFalseResponse] = await Promise.all([
+                fetch('single_choice.json'),
+                fetch('multiple_choice.json'),
+                fetch('true_false.json')
+            ]);
 
-        this.bank.questions = defaultQuestions;
-        this.bank.shuffleQuestions();
-        this.updateHomeStats();
+            const singleChoiceData = await singleChoiceResponse.json();
+            const multipleChoiceData = await multipleChoiceResponse.json();
+            const trueFalseData = await trueFalseResponse.json();
+
+            const allQuestions = [];
+
+            singleChoiceData.questions.forEach((q, index) => {
+                allQuestions.push({
+                    id: `single_${index}`,
+                    question: q.question,
+                    type: '单选题',
+                    options: q.options.map((opt, i) => ({
+                        letter: String.fromCharCode(65 + i),
+                        content: opt
+                    })),
+                    right_answer: q.answer,
+                    score: 1
+                });
+            });
+
+            multipleChoiceData.questions.forEach((q, index) => {
+                allQuestions.push({
+                    id: `multiple_${index}`,
+                    question: q.question,
+                    type: '多选题',
+                    options: q.options.map((opt, i) => ({
+                        letter: String.fromCharCode(65 + i),
+                        content: opt
+                    })),
+                    right_answer: q.answer,
+                    score: 2
+                });
+            });
+
+            trueFalseData.questions.forEach((q, index) => {
+                allQuestions.push({
+                    id: `truefalse_${index}`,
+                    question: q.question,
+                    type: '判断题',
+                    options: q.options.map((opt, i) => ({
+                        letter: String.fromCharCode(65 + i),
+                        content: opt
+                    })),
+                    right_answer: q.answer === '对' ? 'A' : 'B',
+                    score: 1
+                });
+            });
+
+            this.bank.questions = allQuestions;
+            this.bank.shuffleQuestions();
+            this.updateHomeStats();
+        } catch (error) {
+            console.error('加载题库失败:', error);
+            alert('加载题库失败，请确保JSON文件存在！');
+        }
     }
 
     bindEvents() {
