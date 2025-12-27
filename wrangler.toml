@@ -1,0 +1,10 @@
+name = "zztk"
+compatibility_date = "2025-12-27"
+main = "index.html"
+
+[site]
+bucket = "."
+entry-point = "."
+
+# 禁用遥测数据收集
+send_metrics = false
