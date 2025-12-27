@@ -12,7 +12,8 @@ export default {
     
     // Try to fetch the file from the assets
     try {
-      const file = await env.ASSETS.fetch(new Request(new URL(path, request.url)));
+      // Use the path directly with ASSETS.fetch
+      const file = await env.ASSETS.fetch(path);
       
       // If the file exists, return it
       if (file.status !== 404) {
@@ -20,10 +21,10 @@ export default {
       }
       
       // If file not found, fall back to index.html for SPA routing
-      return await env.ASSETS.fetch(new Request(new URL('/index.html', request.url)));
+      return await env.ASSETS.fetch('/index.html');
     } catch (error) {
       // Return index.html for any errors
-      return await env.ASSETS.fetch(new Request(new URL('/index.html', request.url)));
+      return await env.ASSETS.fetch('/index.html');
     }
   }
 };
