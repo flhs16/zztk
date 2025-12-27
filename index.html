@@ -42,17 +42,17 @@
                 </div>
 
                 <div class="quick-actions">
-                    <button id="start-practice" class="action-btn primary">
+                    <button id="start-single" class="action-btn primary">
                         <span class="icon">📝</span>
-                        开始练习
+                        单选题
                     </button>
-                    <button id="start-exam" class="action-btn secondary">
+                    <button id="start-multiple" class="action-btn secondary">
                         <span class="icon">📋</span>
-                        模拟考试
+                        多选题
                     </button>
-                    <button id="review-wrong" class="action-btn warning">
-                        <span class="icon">❌</span>
-                        复习错题
+                    <button id="start-truefalse" class="action-btn warning">
+                        <span class="icon">✅</span>
+                        判断题
                     </button>
                 </div>
             </div>
@@ -90,8 +90,16 @@
                 <div class="progress-info">
                     <span>进度: <span id="practice-progress">0/0</span></span>
                     <span>正确: <span id="practice-correct">0</span></span>
+                    <div class="toggle-switch">
+                        <label for="auto-next">自动跳转</label>
+                        <input type="checkbox" id="auto-next" checked>
+                    </div>
                 </div>
-                <button id="practice-shuffle" class="btn-small">🔀 重新随机</button>
+                <div class="practice-controls">
+                    <button id="practice-shuffle" class="btn-small">🔀 重新随机</button>
+                    <button id="practice-answer-sheet" class="btn-small">📋 答题卡</button>
+                    <button id="practice-submit-all" class="btn-small btn-primary">提交</button>
+                </div>
             </div>
             
             <div class="question-card" id="practice-question">
@@ -102,24 +110,9 @@
                 <!-- 选项将通过JS动态插入 -->
             </div>
 
-            <div class="answer-section" id="practice-answer" style="display: none;">
-                <div class="result correct" id="practice-result">
-                    <span class="icon">✅</span>
-                    <span class="text">回答正确</span>
-                </div>
-                <div class="result wrong" id="practice-result">
-                    <span class="icon">❌</span>
-                    <span class="text">回答错误</span>
-                </div>
-                <div class="answer-detail">
-                    <p><strong>正确答案:</strong> <span id="practice-correct-answer"></span></p>
-                    <p><strong>你的答案:</strong> <span id="practice-your-answer"></span></p>
-                </div>
+            <div class="practice-navigation">
+                <button id="practice-prev" class="btn-secondary" disabled>← 上一题</button>
                 <button id="practice-next" class="btn-primary">下一题 →</button>
-            </div>
-
-            <div class="practice-actions" id="practice-actions">
-                <button id="practice-submit" class="btn-primary">提交答案</button>
             </div>
         </section>
 
@@ -249,7 +242,7 @@
                 </div>
                 <div class="result-actions">
                     <button id="result-review" class="btn-primary">复习错题</button>
-                    <button id="result-home" class="btn-secondary">返回首页</button>
+                    <button id="exam-result-home" class="btn-secondary">返回首页</button>
                 </div>
             </div>
         </div>
@@ -258,10 +251,53 @@
         <div class="modal" id="answer-sheet-modal" style="display: none;">
             <div class="modal-content answer-sheet">
                 <h3>答题卡</h3>
+                <div class="sheet-legend">
+                    <span class="legend-item"><span class="legend-dot correct"></span> 正确</span>
+                    <span class="legend-item"><span class="legend-dot wrong"></span> 错误</span>
+                    <span class="legend-item"><span class="legend-dot unanswered"></span> 未答</span>
+                </div>
                 <div class="sheet-grid" id="answer-sheet-grid">
                     <!-- 答题卡将通过JS动态生成 -->
                 </div>
                 <button id="answer-sheet-close" class="btn-primary">关闭</button>
+            </div>
+        </div>
+
+        <!-- 提交结果弹窗 -->
+        <div class="modal" id="practice-result-modal" style="display: none;">
+            <div class="modal-content result-modal">
+                <h2>练习完成！</h2>
+                <div class="result-stats">
+                    <div class="result-stat">
+                        <span class="value" id="practice-total">0</span>
+                        <span class="label">总题数</span>
+                    </div>
+                    <div class="result-stat correct">
+                        <span class="value" id="practice-correct">0</span>
+                        <span class="label">正确</span>
+                    </div>
+                    <div class="result-stat wrong">
+                        <span class="value" id="practice-wrong">0</span>
+                        <span class="label">错误</span>
+                    </div>
+                    <div class="result-stat rate">
+                        <span class="value" id="practice-rate">0%</span>
+                        <span class="label">正确率</span>
+                    </div>
+                </div>
+                <div class="sheet-legend">
+                    <span class="legend-item"><span class="legend-dot correct"></span> 正确</span>
+                    <span class="legend-item"><span class="legend-dot wrong"></span> 错误</span>
+                    <span class="legend-item"><span class="legend-dot unanswered"></span> 未答</span>
+                </div>
+                <div class="sheet-grid" id="result-answer-sheet">
+                    <!-- 答题卡将通过JS动态生成 -->
+                </div>
+                <div class="result-actions">
+                    <button id="result-close" class="btn-primary">关闭</button>
+                    <button id="practice-result-home" class="btn-secondary">返回首页</button>
+                    <button id="result-retry" class="btn-secondary">重新练习</button>
+                </div>
             </div>
         </div>
     </div>

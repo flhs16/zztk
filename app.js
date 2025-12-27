@@ -9,6 +9,10 @@ class QuestionBank {
         this.examStartTime = null;
         this.examTimer = null;
         this.importedData = null;
+        this.practiceAnswers = [];
+        this.practiceResults = [];
+        this.currentQuestionType = null;
+        this.practiceRecords = this.loadPracticeRecords();
     }
 
     loadWrongQuestions() {
@@ -18,6 +22,24 @@ class QuestionBank {
         } catch (e) {
             console.error('加载错题失败:', e);
             return [];
+        }
+    }
+
+    loadPracticeRecords() {
+        try {
+            const data = localStorage.getItem('practiceRecords');
+            return data ? JSON.parse(data) : [];
+        } catch (e) {
+            console.error('加载练习记录失败:', e);
+            return [];
+        }
+    }
+
+    savePracticeRecords() {
+        try {
+            localStorage.setItem('practiceRecords', JSON.stringify(this.practiceRecords));
+        } catch (e) {
+            console.error('保存练习记录失败:', e);
         }
     }
 
@@ -78,7 +100,11 @@ class QuestionBank {
     }
 
     shuffleQuestions() {
-        this.practiceQueue = [...this.questions].sort(() => Math.random() - 0.5);
+        if (this.practiceQueue.length > 0) {
+            this.practiceQueue = [...this.practiceQueue].sort(() => Math.random() - 0.5);
+        } else {
+            this.practiceQueue = [...this.questions].sort(() => Math.random() - 0.5);
+        }
     }
 
     getPracticeQuestion() {
@@ -96,6 +122,66 @@ class QuestionBank {
         const correctAnswer = question.right_answer.split('').sort().join('');
         const selected = selectedOptions.sort().join('');
         return correctAnswer === selected;
+    }
+
+    getQuestionsByType(type) {
+        return this.questions.filter(q => q.type === type);
+    }
+
+    startPracticeByType(type) {
+        this.currentQuestionType = type;
+        this.practiceQueue = this.getQuestionsByType(type);
+        this.shuffleQuestions();
+        this.currentIndex = 0;
+        this.practiceAnswers = new Array(this.practiceQueue.length).fill(null);
+        this.practiceResults = new Array(this.practiceQueue.length).fill(null);
+        return this.practiceQueue.length > 0;
+    }
+
+    recordPracticeAnswer(index, selectedOptions, isCorrect) {
+        this.practiceAnswers[index] = selectedOptions;
+        this.practiceResults[index] = {
+            isCorrect: isCorrect,
+            selectedOptions: selectedOptions,
+            correctAnswer: this.practiceQueue[index].right_answer
+        };
+    }
+
+    getPracticeStats() {
+        const answered = this.practiceResults.filter(r => r !== null);
+        const correct = answered.filter(r => r.isCorrect).length;
+        const wrong = answered.length - correct;
+        return {
+            total: this.practiceQueue.length,
+            answered: answered.length,
+            correct: correct,
+            wrong: wrong,
+            rate: answered.length > 0 ? Math.round((correct / answered.length) * 100) : 0
+        };
+    }
+
+    savePracticeRecord() {
+        const stats = this.getPracticeStats();
+        const record = {
+            id: Date.now(),
+            date: new Date().toISOString(),
+            type: this.currentQuestionType,
+            total: stats.total,
+            correct: stats.correct,
+            wrong: stats.wrong,
+            rate: stats.rate,
+            questions: this.practiceQueue.map((q, index) => ({
+                question: q.question,
+                type: q.type,
+                result: this.practiceResults[index]
+            }))
+        };
+        this.practiceRecords.unshift(record);
+        if (this.practiceRecords.length > 50) {
+            this.practiceRecords = this.practiceRecords.slice(0, 50);
+        }
+        this.savePracticeRecords();
+        return record;
     }
 }
 
@@ -186,58 +272,147 @@ class App {
         document.getElementById('btn-wrong').addEventListener('click', () => this.showPage('wrong'));
         document.getElementById('btn-import').addEventListener('click', () => this.showPage('import'));
 
-        document.getElementById('start-practice').addEventListener('click', () => this.startPractice());
-        document.getElementById('start-exam').addEventListener('click', () => this.startExam());
-        document.getElementById('review-wrong').addEventListener('click', () => this.reviewWrongQuestions());
-        document.getElementById('practice-shuffle').addEventListener('click', () => this.shufflePractice());
+        // 添加快速操作按钮事件监听器
+        const startSingleBtn = document.getElementById('start-single');
+        const startMultipleBtn = document.getElementById('start-multiple');
+        const startTruefalseBtn = document.getElementById('start-truefalse');
+        
+        if (startSingleBtn) startSingleBtn.addEventListener('click', () => this.startPracticeByType('单选题'));
+        if (startMultipleBtn) startMultipleBtn.addEventListener('click', () => this.startPracticeByType('多选题'));
+        if (startTruefalseBtn) startTruefalseBtn.addEventListener('click', () => this.startPracticeByType('判断题'));
 
-        document.getElementById('practice-submit').addEventListener('click', () => this.submitPracticeAnswer());
-        document.getElementById('practice-next').addEventListener('click', () => this.nextPracticeQuestion());
+        // 检查并添加其他按钮事件监听器
+        const startPracticeBtn = document.getElementById('start-practice');
+        const startExamBtn = document.getElementById('start-exam');
+        const reviewWrongBtn = document.getElementById('review-wrong');
+        const practiceShuffleBtn = document.getElementById('practice-shuffle');
+        
+        if (startPracticeBtn) startPracticeBtn.addEventListener('click', () => this.startPractice());
+        if (startExamBtn) startExamBtn.addEventListener('click', () => this.startExam());
+        if (reviewWrongBtn) reviewWrongBtn.addEventListener('click', () => this.reviewWrongQuestions());
+        if (practiceShuffleBtn) practiceShuffleBtn.addEventListener('click', () => this.shufflePractice());
 
-        document.getElementById('exam-prev').addEventListener('click', () => this.prevExamQuestion());
-        document.getElementById('exam-next').addEventListener('click', () => this.nextExamQuestion());
-        document.getElementById('exam-mark').addEventListener('click', () => this.toggleMarkQuestion());
+        const practiceSubmitBtn = document.getElementById('practice-submit');
+        const practiceNextBtn = document.getElementById('practice-next');
+        const practicePrevBtn = document.getElementById('practice-prev');
+        const practiceAnswerSheetBtn = document.getElementById('practice-answer-sheet');
+        const practiceSubmitAllBtn = document.getElementById('practice-submit-all');
+        
+        if (practiceSubmitBtn) practiceSubmitBtn.addEventListener('click', () => this.submitPracticeAnswer());
+        if (practiceNextBtn) practiceNextBtn.addEventListener('click', () => this.nextPracticeQuestion());
+        if (practicePrevBtn) practicePrevBtn.addEventListener('click', () => this.prevPracticeQuestion());
+        if (practiceAnswerSheetBtn) practiceAnswerSheetBtn.addEventListener('click', () => this.showAnswerSheet());
+        if (practiceSubmitAllBtn) practiceSubmitAllBtn.addEventListener('click', () => this.submitAllPractice());
 
-        document.getElementById('wrong-clear').addEventListener('click', () => this.clearWrongQuestions());
-        document.getElementById('wrong-export').addEventListener('click', () => this.exportWrongQuestions());
+        // 考试模式按钮事件监听器
+        const examPrevBtn = document.getElementById('exam-prev');
+        const examNextBtn = document.getElementById('exam-next');
+        const examMarkBtn = document.getElementById('exam-mark');
+        
+        if (examPrevBtn) examPrevBtn.addEventListener('click', () => this.prevExamQuestion());
+        if (examNextBtn) examNextBtn.addEventListener('click', () => this.nextExamQuestion());
+        if (examMarkBtn) examMarkBtn.addEventListener('click', () => this.toggleMarkQuestion());
 
-        document.getElementById('import-browse').addEventListener('click', () => {
-            document.getElementById('import-file').click();
-        });
+        // 错题本按钮事件监听器
+        const wrongClearBtn = document.getElementById('wrong-clear');
+        const wrongExportBtn = document.getElementById('wrong-export');
+        
+        if (wrongClearBtn) wrongClearBtn.addEventListener('click', () => this.clearWrongQuestions());
+        if (wrongExportBtn) wrongExportBtn.addEventListener('click', () => this.exportWrongQuestions());
 
-        document.getElementById('import-file').addEventListener('change', (e) => this.handleFileImport(e));
+        // 导入功能按钮事件监听器
+        const importBrowseBtn = document.getElementById('import-browse');
+        const importFileInput = document.getElementById('import-file');
+        
+        if (importBrowseBtn && importFileInput) {
+            importBrowseBtn.addEventListener('click', () => {
+                importFileInput.click();
+            });
+        }
+        
+        if (importFileInput) {
+            importFileInput.addEventListener('change', (e) => this.handleFileImport(e));
+        }
 
+        // 拖放区域事件监听器
         const dropZone = document.getElementById('import-drop-zone');
-        dropZone.addEventListener('dragover', (e) => {
-            e.preventDefault();
-            dropZone.classList.add('dragover');
-        });
-        dropZone.addEventListener('dragleave', () => {
-            dropZone.classList.remove('dragover');
-        });
-        dropZone.addEventListener('drop', (e) => {
-            e.preventDefault();
-            dropZone.classList.remove('dragover');
-            const file = e.dataTransfer.files[0];
-            if (file) this.processFile(file);
-        });
+        if (dropZone) {
+            dropZone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                dropZone.classList.add('dragover');
+            });
+            dropZone.addEventListener('dragleave', () => {
+                dropZone.classList.remove('dragover');
+            });
+            dropZone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                dropZone.classList.remove('dragover');
+                const file = e.dataTransfer.files[0];
+                if (file) this.processFile(file);
+            });
+        }
 
-        document.getElementById('import-confirm').addEventListener('click', () => this.confirmImport());
-        document.getElementById('import-cancel').addEventListener('click', () => this.cancelImport());
+        // 导入确认/取消按钮事件监听器
+        const importConfirmBtn = document.getElementById('import-confirm');
+        const importCancelBtn = document.getElementById('import-cancel');
+        
+        if (importConfirmBtn) importConfirmBtn.addEventListener('click', () => this.confirmImport());
+        if (importCancelBtn) importCancelBtn.addEventListener('click', () => this.cancelImport());
 
-        document.getElementById('result-review').addEventListener('click', () => {
-            document.getElementById('exam-result-modal').style.display = 'none';
-            this.reviewWrongQuestions();
-        });
+        // 考试结果按钮事件监听器
+        const resultReviewBtn = document.getElementById('result-review');
+        const examResultHomeBtn = document.getElementById('exam-result-home');
+        const examResultModal = document.getElementById('exam-result-modal');
+        
+        if (resultReviewBtn && examResultModal) {
+            resultReviewBtn.addEventListener('click', () => {
+                examResultModal.style.display = 'none';
+                this.reviewWrongQuestions();
+            });
+        }
+        
+        if (examResultHomeBtn && examResultModal) {
+            examResultHomeBtn.addEventListener('click', () => {
+                examResultModal.style.display = 'none';
+                this.showPage('home');
+            });
+        }
 
-        document.getElementById('result-home').addEventListener('click', () => {
-            document.getElementById('exam-result-modal').style.display = 'none';
-            this.showPage('home');
-        });
+        // 答题卡关闭按钮事件监听器
+        const answerSheetCloseBtn = document.getElementById('answer-sheet-close');
+        const answerSheetModal = document.getElementById('answer-sheet-modal');
+        
+        if (answerSheetCloseBtn && answerSheetModal) {
+            answerSheetCloseBtn.addEventListener('click', () => {
+                answerSheetModal.style.display = 'none';
+            });
+        }
 
-        document.getElementById('answer-sheet-close').addEventListener('click', () => {
-            document.getElementById('answer-sheet-modal').style.display = 'none';
-        });
+        // 练习结果按钮事件监听器
+        const resultCloseBtn = document.getElementById('result-close');
+        const resultRetryBtn = document.getElementById('result-retry');
+        const practiceResultModal = document.getElementById('practice-result-modal');
+        
+        if (resultCloseBtn && practiceResultModal) {
+            resultCloseBtn.addEventListener('click', () => {
+                practiceResultModal.style.display = 'none';
+            });
+        }
+        
+        const practiceResultHomeBtn = document.getElementById('practice-result-home');
+        if (practiceResultHomeBtn && practiceResultModal) {
+            practiceResultHomeBtn.addEventListener('click', () => {
+                practiceResultModal.style.display = 'none';
+                this.showPage('home');
+            });
+        }
+        
+        if (resultRetryBtn && practiceResultModal) {
+            resultRetryBtn.addEventListener('click', () => {
+                practiceResultModal.style.display = 'none';
+                this.startPracticeByType(this.bank.currentQuestionType);
+            });
+        }
     }
 
     showPage(pageId) {
@@ -286,9 +461,27 @@ class App {
         this.renderPracticeQuestion();
     }
 
+    startPracticeByType(type) {
+        if (this.bank.questions.length === 0) {
+            alert('请先导入题库！');
+            return;
+        }
+        const success = this.bank.startPracticeByType(type);
+        if (!success) {
+            alert(`没有找到${type}题目！`);
+            return;
+        }
+        this.showPage('practice');
+        this.renderPracticeQuestion();
+    }
+
     shufflePractice() {
-        this.bank.shuffleQuestions();
-        this.bank.currentIndex = 0;
+        if (this.bank.currentQuestionType) {
+            this.bank.startPracticeByType(this.bank.currentQuestionType);
+        } else {
+            this.bank.shuffleQuestions();
+            this.bank.currentIndex = 0;
+        }
         this.renderPracticeQuestion();
     }
 
@@ -307,6 +500,9 @@ class App {
 
         const progress = `${this.bank.currentIndex + 1}/${this.bank.practiceQueue.length}`;
         document.getElementById('practice-progress').textContent = progress;
+
+        const stats = this.bank.getPracticeStats();
+        document.getElementById('practice-correct').textContent = stats.correct;
 
         const html = `
             <h3>
@@ -328,13 +524,26 @@ class App {
 
         document.querySelectorAll('#practice-options .option-item').forEach(item => {
             item.addEventListener('click', () => {
-                if (document.getElementById('practice-answer').style.display === 'block') return;
-                item.classList.toggle('selected');
+                if (this.bank.practiceResults[this.bank.currentIndex]) return;
+                
+                const questionType = this.bank.practiceQueue[this.bank.currentIndex].type;
+                if (questionType === '单选题' || questionType === '判断题') {
+                    document.querySelectorAll('#practice-options .option-item').forEach(i => i.classList.remove('selected'));
+                    item.classList.add('selected');
+                    this.submitPracticeAnswer();
+                } else {
+                    item.classList.toggle('selected');
+                }
             });
         });
 
-        document.getElementById('practice-answer').style.display = 'none';
-        document.getElementById('practice-actions').style.display = 'flex';
+
+
+        document.getElementById('practice-prev').disabled = this.bank.currentIndex === 0;
+        document.getElementById('practice-next').textContent = 
+            this.bank.currentIndex === this.bank.practiceQueue.length - 1 ? '提交' : '下一题 →';
+
+        this.updateAnswerSheet();
     }
 
     submitPracticeAnswer() {
@@ -349,6 +558,8 @@ class App {
         const question = this.bank.practiceQueue[this.bank.currentIndex];
         const isCorrect = this.bank.checkAnswer(question, selectedOptions);
 
+        this.bank.recordPracticeAnswer(this.bank.currentIndex, selectedOptions, isCorrect);
+
         document.querySelectorAll('#practice-options .option-item').forEach(item => {
             const letter = item.dataset.letter;
             if (question.right_answer.includes(letter)) {
@@ -358,29 +569,158 @@ class App {
             }
         });
 
-        const resultDiv = document.getElementById('practice-result');
-        resultDiv.className = `result ${isCorrect ? 'correct' : 'wrong'}`;
-        resultDiv.querySelector('.text').textContent = isCorrect ? '回答正确' : '回答错误';
 
-        document.getElementById('practice-correct-answer').textContent = question.right_answer;
-        document.getElementById('practice-your-answer').textContent = selectedOptions.join(', ');
-
-        document.getElementById('practice-answer').style.display = 'block';
-        document.getElementById('practice-actions').style.display = 'none';
 
         if (!isCorrect) {
             this.bank.addWrongQuestion(question);
         }
+
+        this.updateAnswerSheet();
+
+        const autoNextCheckbox = document.getElementById('auto-next');
+        const app = this;
+        
+        if (autoNextCheckbox && autoNextCheckbox.checked) {
+            const questionType = this.bank.practiceQueue[this.bank.currentIndex].type;
+            // 只在单选题和判断题中启用自动跳转
+            if (questionType === '单选题' || questionType === '判断题') {
+                // 无论对错都自动跳转，直接跳转到下一题
+                setTimeout(() => {
+                    app.goToNextQuestion();
+                }, 500);
+            }
+        }
     }
 
     nextPracticeQuestion() {
+        // 检查当前题是否已经回答
+        if (!this.bank.practiceResults[this.bank.currentIndex]) {
+            // 如果没有回答，先提交当前答案
+            this.submitPracticeAnswer();
+        } else {
+            // 如果已经回答，直接跳转
+            this.goToNextQuestion();
+        }
+    }
+
+    goToNextQuestion() {
         if (this.bank.currentIndex < this.bank.practiceQueue.length - 1) {
             this.bank.currentIndex++;
             this.renderPracticeQuestion();
         } else {
-            alert('练习完成！');
-            this.showPage('home');
+            this.submitAllPractice();
         }
+    }
+
+    prevPracticeQuestion() {
+        if (this.bank.currentIndex > 0) {
+            this.bank.currentIndex--;
+            this.renderPracticeQuestion();
+        }
+    }
+
+    showAnswerSheet() {
+        const grid = document.getElementById('answer-sheet-grid');
+        const modal = document.getElementById('answer-sheet-modal');
+        
+        if (!grid || !modal) return;
+        
+        grid.innerHTML = this.bank.practiceQueue.map((_, index) => {
+            const result = this.bank.practiceResults[index];
+            let className = 'sheet-item';
+            if (index === this.bank.currentIndex) className += ' current';
+            if (result) {
+                className += result.isCorrect ? ' correct' : ' wrong';
+            }
+
+            return `<div class="${className}" data-index="${index}">${index + 1}</div>`;
+        }).join('');
+
+        grid.querySelectorAll('.sheet-item').forEach(item => {
+            item.addEventListener('click', () => {
+                this.bank.currentIndex = parseInt(item.dataset.index);
+                this.renderPracticeQuestion();
+                // 直接调用关闭按钮的方法
+                const closeBtn = document.getElementById('answer-sheet-close');
+                if (closeBtn) {
+                    closeBtn.click();
+                }
+            });
+        });
+
+        modal.style.display = 'flex';
+    }
+
+    updateAnswerSheet() {
+        const grid = document.getElementById('answer-sheet-grid');
+        
+        if (!grid) return;
+        
+        grid.innerHTML = this.bank.practiceQueue.map((_, index) => {
+            const result = this.bank.practiceResults[index];
+            let className = 'sheet-item';
+            if (index === this.bank.currentIndex) className += ' current';
+            if (result) {
+                className += result.isCorrect ? ' correct' : ' wrong';
+            }
+
+            return `<div class="${className}" data-index="${index}">${index + 1}</div>`;
+        }).join('');
+
+        grid.querySelectorAll('.sheet-item').forEach(item => {
+            item.addEventListener('click', () => {
+                this.bank.currentIndex = parseInt(item.dataset.index);
+                this.renderPracticeQuestion();
+                // 直接调用关闭按钮的方法
+                const closeBtn = document.getElementById('answer-sheet-close');
+                if (closeBtn) {
+                    closeBtn.click();
+                }
+            });
+        });
+    }
+
+    submitAllPractice() {
+        const record = this.bank.savePracticeRecord();
+        const stats = this.bank.getPracticeStats();
+
+        const practiceTotalEl = document.getElementById('practice-total');
+        const practiceCorrectEl = document.getElementById('practice-correct');
+        const practiceWrongEl = document.getElementById('practice-wrong');
+        const practiceRateEl = document.getElementById('practice-rate');
+        const answerSheet = document.getElementById('result-answer-sheet');
+        const practiceResultModal = document.getElementById('practice-result-modal');
+
+        if (practiceTotalEl) practiceTotalEl.textContent = stats.total;
+        if (practiceCorrectEl) practiceCorrectEl.textContent = stats.correct;
+        if (practiceWrongEl) practiceWrongEl.textContent = stats.wrong;
+        if (practiceRateEl) practiceRateEl.textContent = stats.rate + '%';
+
+        if (answerSheet) {
+            answerSheet.innerHTML = this.bank.practiceQueue.map((_, index) => {
+                const result = this.bank.practiceResults[index];
+                let className = 'sheet-item';
+                if (result) {
+                    className += result.isCorrect ? ' correct' : ' wrong';
+                } else {
+                    className += ' unanswered';
+                }
+
+                return `<div class="${className}" data-index="${index}">${index + 1}</div>`;
+            }).join('');
+
+            // 添加点击事件
+            answerSheet.querySelectorAll('.sheet-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const index = parseInt(item.dataset.index);
+                    this.bank.currentIndex = index;
+                    this.renderPracticeQuestion();
+                    if (practiceResultModal) practiceResultModal.style.display = 'none';
+                });
+            });
+        }
+
+        if (practiceResultModal) practiceResultModal.style.display = 'flex';
     }
 
     startExam() {
