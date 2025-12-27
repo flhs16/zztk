@@ -6,8 +6,7 @@
   "send_metrics": false,
   "compatibility_flags": [],
   "site": {
-    "bucket": ".",
-    "entry-point": "."
+    "bucket": "."
   },
   "env": {
     "production": {

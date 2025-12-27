@@ -4,7 +4,6 @@ main = "index.html"
 
 [site]
 bucket = "."
-entry-point = "."
 
 # 禁用遥测数据收集
 send_metrics = false
