@@ -1001,6 +1001,172 @@ body {
     box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.3);
 }
 
+/* 练习控制按钮 */
+.practice-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.practice-controls .btn-small {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+}
+
+.practice-controls .btn-primary {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+.practice-controls .btn-primary:hover {
+    background: var(--primary-hover);
+}
+
+/* 练习导航 */
+.practice-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.practice-navigation button {
+    flex: 1;
+    padding: 12px 24px;
+    border: none;
+    border-radius: var(--radius);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.practice-navigation button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* 答题卡图例 */
+.sheet-legend {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: var(--light-color);
+    border-radius: var(--radius);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+}
+
+.legend-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.legend-dot.correct {
+    background: var(--success-color);
+}
+
+.legend-dot.wrong {
+    background: var(--danger-color);
+}
+
+.legend-dot.unanswered {
+    background: var(--border-color);
+}
+
+/* 结果弹窗 */
+.result-modal {
+    max-width: 800px;
+}
+
+.result-detail-list {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.result-detail-item {
+    padding: 20px;
+    background: var(--light-color);
+    border-radius: var(--radius);
+    margin-bottom: 15px;
+    border-left: 4px solid var(--border-color);
+}
+
+.result-detail-item.correct {
+    border-left-color: var(--success-color);
+}
+
+.result-detail-item.wrong {
+    border-left-color: var(--danger-color);
+}
+
+.result-detail-question {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--dark-color);
+}
+
+.result-detail-options {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.result-detail-option {
+    padding: 8px 12px;
+    background: white;
+    border-radius: var(--radius);
+    font-size: 0.9rem;
+}
+
+.result-detail-option.correct-answer {
+    background: var(--success-bg);
+    color: var(--success-color);
+    font-weight: 500;
+}
+
+.result-detail-option.your-answer {
+    background: var(--primary-color);
+    color: white;
+    font-weight: 500;
+}
+
+.result-detail-option.your-answer.correct-answer {
+    background: var(--success-color);
+}
+
+.result-detail-meta {
+    display: flex;
+    gap: 20px;
+    font-size: 0.85rem;
+    color: var(--secondary-color);
+}
+
+/* 选项按钮状态 */
+.option-btn.correct {
+    background: var(--success-bg) !important;
+    border-color: var(--success-color) !important;
+    color: var(--success-color) !important;
+}
+
+.option-btn.wrong {
+    background: var(--danger-bg) !important;
+    border-color: var(--danger-color) !important;
+    color: var(--danger-color) !important;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
     .container {
@@ -1108,6 +1274,17 @@ body {
     .result-stats {
         grid-template-columns: 1fr 1fr;
     }
+
+    .sheet-grid {
+        grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+        gap: 8px;
+    }
+
+    .sheet-item {
+        width: 40px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1137,5 +1314,59 @@ body {
 
     .option-content {
         font-size: 0.95rem;
+    }
+}
+
+/* 自动跳转开关样式 */
+.toggle-switch {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 8px;
+}
+
+.toggle-switch label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.toggle-switch input[type="checkbox"] {
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+    position: relative;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.toggle-switch input[type="checkbox"]:checked {
+    background-color: #4CAF50;
+}
+
+.toggle-switch input[type="checkbox"]::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s;
+}
+
+.toggle-switch input[type="checkbox"]:checked::after {
+    transform: translateX(20px);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .toggle-switch {
+        margin-left: 0;
+        margin-top: 10px;
     }
 }

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习通题库 - 在线练习</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 顶部导航 -->
+        <header class="header">
+            <h1>📚 学习通题库</h1>
+            <nav class="nav">
+                <button id="btn-home" class="nav-btn active">首页</button>
+                <button id="btn-practice" class="nav-btn">练习模式</button>
+                <button id="btn-exam" class="nav-btn">考试模式</button>
+                <button id="btn-wrong" class="nav-btn">错题本 <span id="wrong-count" class="badge">0</span></button>
+                <button id="btn-import" class="nav-btn">导入题库</button>
+            </nav>
+        </header>
+
+        <!-- 首页 -->
+        <section id="home" class="page active">
+            <div class="welcome-card">
+                <h2>欢迎使用学习通题库</h2>
+                <p>这是一个免费的在线题库练习系统，支持多种练习模式。</p>
+                
+                <div class="stats-cards">
+                    <div class="stat-card">
+                        <span class="stat-number" id="total-questions">0</span>
+                        <span class="stat-label">题库总数</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="wrong-questions">0</span>
+                        <span class="stat-label">错题数量</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="correct-rate">0%</span>
+                        <span class="stat-label">正确率</span>
+                    </div>
+                </div>
+
+                <div class="question-type-selector">
+                    <h3>选择题型</h3>
+                    <div class="type-buttons">
+                        <button id="btn-type-all" class="type-btn active">全部题目</button>
+                        <button id="btn-type-single" class="type-btn">单选题</button>
+                        <button id="btn-type-multiple" class="type-btn">多选题</button>
+                        <button id="btn-type-truefalse" class="type-btn">判断题</button>
+                    </div>
+                </div>
+
+                <div class="quick-actions">
+                    <button id="start-practice" class="action-btn primary">
+                        <span class="icon">📝</span>
+                        开始练习
+                    </button>
+                    <button id="start-exam" class="action-btn secondary">
+                        <span class="icon">📋</span>
+                        模拟考试
+                    </button>
+                    <button id="review-wrong" class="action-btn warning">
+                        <span class="icon">❌</span>
+                        复习错题
+                    </button>
+                </div>
+            </div>
+
+            <div class="instructions">
+                <h3>使用说明</h3>
+                <div class="instruction-grid">
+                    <div class="instruction-item">
+                        <div class="icon">📖</div>
+                        <h4>练习模式</h4>
+                        <p>逐题练习，实时查看答案和解析</p>
+                    </div>
+                    <div class="instruction-item">
+                        <div class="icon">⏱️</div>
+                        <h4>考试模式</h4>
+                        <p>模拟真实考试环境，计时答题</p>
+                    </div>
+                    <div class="instruction-item">
+                        <div class="icon">📒</div>
+                        <h4>错题本</h4>
+                        <p>自动记录错题，便于复习巩固</p>
+                    </div>
+                    <div class="instruction-item">
+                        <div class="icon">📥</div>
+                        <h4>导入题库</h4>
+                        <p>支持导入JSON格式题库文件</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 练习模式 -->
+        <section id="practice" class="page">
+            <div class="practice-header">
+                <div class="progress-info">
+                    <span>进度: <span id="practice-progress">0/0</span></span>
+                    <span>正确: <span id="practice-correct">0</span></span>
+                </div>
+                <div class="practice-header-actions">
+                    <button id="practice-shuffle" class="btn-small">🔀 重新随机</button>
+                    <button id="practice-answer-sheet" class="btn-small">📋 答题卡</button>
+                </div>
+            </div>
+            
+            <div class="question-card" id="practice-question">
+                <!-- 题目内容将通过JS动态插入 -->
+            </div>
+
+            <div class="options-container" id="practice-options">
+                <!-- 选项将通过JS动态插入 -->
+            </div>
+
+            <div class="answer-section" id="practice-answer" style="display: none;">
+                <div class="result correct" id="practice-result">
+                    <span class="icon">✅</span>
+                    <span class="text">回答正确</span>
+                </div>
+                <div class="result wrong" id="practice-result">
+                    <span class="icon">❌</span>
+                    <span class="text">回答错误</span>
+                </div>
+                <div class="answer-detail">
+                    <p><strong>正确答案:</strong> <span id="practice-correct-answer"></span></p>
+                    <p><strong>你的答案:</strong> <span id="practice-your-answer"></span></p>
+                </div>
+            </div>
+
+            <div class="practice-actions">
+                <button id="practice-prev" class="btn-secondary">← 上一题</button>
+                <button id="practice-next" class="btn-primary">下一题 →</button>
+                <button id="practice-submit-all" class="btn-warning">📝 提交练习</button>
+            </div>
+        </section>
+
+        <!-- 考试模式 -->
+        <section id="exam" class="page">
+            <div class="exam-header">
+                <div class="exam-info">
+                    <h3>模拟考试</h3>
+                    <span id="exam-progress">0/0</span>
+                </div>
+                <div class="exam-timer">
+                    <span class="icon">⏰</span>
+                    <span id="exam-time">00:00</span>
+                </div>
+            </div>
+
+            <div class="exam-progress-bar">
+                <div class="progress-fill" id="exam-progress-fill"></div>
+            </div>
+
+            <div class="question-card" id="exam-question">
+                <!-- 题目内容将通过JS动态插入 -->
+            </div>
+
+            <div class="options-container" id="exam-options">
+                <!-- 选项将通过JS动态插入 -->
+            </div>
+
+            <div class="exam-actions">
+                <button id="exam-prev" class="btn-secondary" disabled>← 上一题</button>
+                <button id="exam-mark" class="btn-warning">📌 标记此题</button>
+                <button id="exam-next" class="btn-primary">下一题 →</button>
+            </div>
+        </section>
+
+        <!-- 错题本 -->
+        <section id="wrong" class="page">
+            <div class="wrong-header">
+                <h2>📒 我的错题本</h2>
+                <div class="wrong-actions">
+                    <button id="wrong-clear" class="btn-danger">🗑️ 清空错题</button>
+                    <button id="wrong-export" class="btn-secondary">📤 导出错题</button>
+                </div>
+            </div>
+            
+            <div class="wrong-stats">
+                <span>共 <strong id="wrong-total">0</strong> 道错题</span>
+            </div>
+
+            <div class="wrong-list" id="wrong-list">
+                <!-- 错题列表将通过JS动态插入 -->
+            </div>
+        </section>
+
+        <!-- 导入题库 -->
+        <section id="import" class="page">
+            <div class="import-container">
+                <h2>📥 导入题库</h2>
+                <div class="import-area" id="import-drop-zone">
+                    <div class="icon">📁</div>
+                    <p>拖拽JSON文件到此处，或点击选择文件</p>
+                    <input type="file" id="import-file" accept=".json" hidden>
+                    <button id="import-browse" class="btn-primary">选择文件</button>
+                </div>
+                
+                <div class="import-preview" id="import-preview" style="display: none;">
+                    <h3>题库预览</h3>
+                    <div class="preview-info">
+                        <p><strong>题库名称:</strong> <span id="preview-name">-</span></p>
+                        <p><strong>题目数量:</strong> <span id="preview-count">-</span></p>
+                        <p><strong>题目类型:</strong> <span id="preview-type">-</span></p>
+                    </div>
+                    <div class="preview-questions" id="preview-questions">
+                        <!-- 预览题目列表 -->
+                    </div>
+                    <div class="import-actions">
+                        <button id="import-confirm" class="btn-primary">确认导入</button>
+                        <button id="import-cancel" class="btn-secondary">取消</button>
+                    </div>
+                </div>
+
+                <div class="import-help">
+                    <h3>格式说明</h3>
+                    <p>支持JSON格式的题库文件，格式如下：</p>
+                    <pre>{
+  "name": "题库名称",
+  "questions": [
+    {
+      "id": "1",
+      "question": "题目内容",
+      "type": "多选题",
+      "options": [
+        {"letter": "A", "content": "选项A"},
+        {"letter": "B", "content": "选项B"},
+        {"letter": "C", "content": "选项C"},
+        {"letter": "D", "content": "选项D"}
+      ],
+      "right_answer": "AB"
+    }
+  ]
+}</pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- 考试结果弹窗 -->
+        <div class="modal" id="exam-result-modal" style="display: none;">
+            <div class="modal-content">
+                <h2>考试完成！</h2>
+                <div class="result-stats">
+                    <div class="result-stat">
+                        <span class="value" id="exam-total">0</span>
+                        <span class="label">总题数</span>
+                    </div>
+                    <div class="result-stat correct">
+                        <span class="value" id="exam-correct">0</span>
+                        <span class="label">正确</span>
+                    </div>
+                    <div class="result-stat wrong">
+                        <span class="value" id="exam-wrong">0</span>
+                        <span class="label">错误</span>
+                    </div>
+                    <div class="result-stat rate">
+                        <span class="value" id="exam-rate">0%</span>
+                        <span class="label">正确率</span>
+                    </div>
+                </div>
+                <div class="result-actions">
+                    <button id="result-review" class="btn-primary">复习错题</button>
+                    <button id="result-home" class="btn-secondary">返回首页</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 答题卡弹窗 -->
+        <div class="modal" id="answer-sheet-modal" style="display: none;">
+            <div class="modal-content answer-sheet">
+                <h3>答题卡</h3>
+                <div class="sheet-grid" id="answer-sheet-grid">
+                    <!-- 答题卡将通过JS动态生成 -->
+                </div>
+                <button id="answer-sheet-close" class="btn-primary">关闭</button>
+            </div>
+        </div>
+
+        <!-- 练习结果弹窗 -->
+        <div class="modal" id="practice-result-modal" style="display: none;">
+            <div class="modal-content practice-result">
+                <h2>练习完成！</h2>
+                <div class="result-stats">
+                    <div class="result-stat">
+                        <span class="value" id="practice-result-total">0</span>
+                        <span class="label">总题数</span>
+                    </div>
+                    <div class="result-stat correct">
+                        <span class="value" id="practice-result-correct">0</span>
+                        <span class="label">正确</span>
+                    </div>
+                    <div class="result-stat wrong">
+                        <span class="value" id="practice-result-wrong">0</span>
+                        <span class="label">错误</span>
+                    </div>
+                    <div class="result-stat rate">
+                        <span class="value" id="practice-result-rate">0%</span>
+                        <span class="label">正确率</span>
+                    </div>
+                </div>
+                <div class="result-actions">
+                    <button id="practice-result-review" class="btn-primary">查看详情</button>
+                    <button id="practice-result-home" class="btn-secondary">返回首页</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 练习详情弹窗 -->
+        <div class="modal" id="practice-detail-modal" style="display: none;">
+            <div class="modal-content practice-detail">
+                <h3>练习详情</h3>
+                <div class="detail-list" id="practice-detail-list">
+                    <!-- 题目详情将通过JS动态生成 -->
+                </div>
+                <button id="practice-detail-close" class="btn-primary">关闭</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="../src/main.js"></script>
+</body>
+</html>
