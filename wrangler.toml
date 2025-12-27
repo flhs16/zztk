@@ -1,15 +1,8 @@
 name = "zztk"
 compatibility_date = "2025-12-27"
-main = "index.html"
 
-[site]
-bucket = "."
+# Cloudflare Pages配置
+pages_build_output_dir = "."
 
 # 禁用遥测数据收集
 send_metrics = false
-
-# Cloudflare Pages配置
-compatibility_flags = []
-
-[env.production]
-compatibility_date = "2025-12-27"
